@@ -1,3 +1,5 @@
+import { dataUrl, fetchDataJson, DATA_PATHS } from './data-source.js';
+
 // --- ESTADO GLOBAL DE LA APLICACIÓN ---
 const appState = {
   activeTab: "schedule",
@@ -116,10 +118,14 @@ const icons = {
 };
 
 // --- CARGA DE DATOS ASÍNCRONOS (allSettled: un fallo no vacía el mapa) ---
-async function fetchJsonLabeled(url, label) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`${label}: HTTP ${res.status}`);
-  return res.json();
+async function fetchJsonLabeled(urlOrPath, label) {
+  // Absolute/relative URL already resolved → fetch directly; else treat as data path.
+  if (/^(https?:|\/|\.\/)/.test(urlOrPath) || urlOrPath.includes('://')) {
+    const res = await fetch(urlOrPath);
+    if (!res.ok) throw new Error(`${label}: HTTP ${res.status}`);
+    return res.json();
+  }
+  return fetchDataJson(urlOrPath, label);
 }
 
 function showLayerErrors(failures) {
@@ -229,15 +235,15 @@ function applyParkKpisToPanel(avg) {
 
 async function loadData() {
   const layerSpecs = [
-    { key: 'bloques', url: './geojson/Bloques_Solares.geojson', label: 'Bloques Solares', render: renderBloquesSolares },
-    { key: 'area', url: './geojson/Area_Parque_Solar.geojson', label: 'Área del Parque', render: renderAreaParque },
-    { key: 'inversores', url: './geojson/Inversores_Transformadores.geojson', label: 'Inversores / Skids', render: renderInversores },
-    { key: 'subestacion', url: './geojson/Subestacion_Solar.geojson', label: 'Subestación', render: renderSubestacion },
-    { key: 'linea', url: './geojson/Linea_Transmision.geojson', label: 'Línea de Transmisión', render: renderLineaTransmision },
-    { key: 'meteo', url: './geojson/Estacion_Meteorologica.geojson', label: 'Estación Meteorológica', render: renderEstacionMeteo },
-    { key: 'ambientales', url: './geojson/Obras_Drenaje_Ambientales.geojson', label: 'Gestión Ambiental', render: renderAmbientales },
-    { key: 'comunidades', url: './geojson/Comunidades.geojson', label: 'Comunidades', render: renderComunidades },
-    { key: 'schedule', url: './programacion-semanal.json', label: 'Programación semanal', render: null }
+    { key: 'bloques', url: dataUrl(DATA_PATHS.bloques), label: 'Bloques Solares', render: renderBloquesSolares },
+    { key: 'area', url: dataUrl(DATA_PATHS.area), label: 'Área del Parque', render: renderAreaParque },
+    { key: 'inversores', url: dataUrl(DATA_PATHS.inversores), label: 'Inversores / Skids', render: renderInversores },
+    { key: 'subestacion', url: dataUrl(DATA_PATHS.subestacion), label: 'Subestación', render: renderSubestacion },
+    { key: 'linea', url: dataUrl(DATA_PATHS.linea), label: 'Línea de Transmisión', render: renderLineaTransmision },
+    { key: 'meteo', url: dataUrl(DATA_PATHS.meteo), label: 'Estación Meteorológica', render: renderEstacionMeteo },
+    { key: 'ambientales', url: dataUrl(DATA_PATHS.ambientales), label: 'Gestión Ambiental', render: renderAmbientales },
+    { key: 'comunidades', url: dataUrl(DATA_PATHS.comunidades), label: 'Comunidades', render: renderComunidades },
+    { key: 'schedule', url: dataUrl(DATA_PATHS.schedule), label: 'Programación semanal', render: null }
   ];
 
   const settled = await Promise.allSettled(
@@ -338,7 +344,7 @@ async function ensureMunicipiosLoaded() {
   const chk = document.getElementById('layer-chk-municipios');
   const labelHint = chk && chk.closest('label');
   try {
-    const data = await fetchJsonLabeled('./geojson/Municipios.geojson', 'Municipios');
+    const data = await fetchJsonLabeled(dataUrl(DATA_PATHS.municipios), 'Municipios');
     appState.geoLayers.municipios = data;
     renderMunicipios(data);
     municipiosLoadState = 'ready';
