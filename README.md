@@ -32,27 +32,50 @@ Visor geográfico interactivo de alta precisión para el seguimiento integral de
 
 ## 💻 Ejecución Local
 
-El visor es **100 % estático** (HTML + GeoJSON + JSON). No requiere Node.js, backend ni base de datos.
+### Hito C — piloto (Vite, recomendado)
 
-**No abras `index.html` con doble clic (`file://`)**: el navegador bloquea los `fetch` locales. Usa un servidor HTTP.
+Requiere Node.js ≥ 18. Leaflet sigue **vendored** en `vendor/` (offline-capable); no se fuerza CDN.
 
 ```bash
-cd docs/dashboard-fotovoltaico-source   # o la carpeta donde esté este README
-python3 -m http.server 8000
+npm install
+npm run dev          # http://127.0.0.1:5173
+npm run build        # salida en dist/
+npm run preview      # preview del build (sin auth)
+npm run preview:auth # Basic Auth sobre dist/ (credenciales en .env.example)
+npm test             # Playwright smoke (build + preview)
 ```
 
-Luego abre: `http://localhost:8000`
+| Variable | Dónde | Uso |
+| :--- | :--- | :--- |
+| `VITE_DATA_BASE` | `.env` / build | Base URL de datos (`''` = same-origin; `/api/data` = mock Vite) |
+| `BASIC_AUTH_USER` / `BASIC_AUTH_PASS` | solo `preview:auth` | Gate demo; **no** son secretos de producción |
 
-Alternativa: `npx --yes serve -l 8000` (si tienes Node).
+Copia `.env.example` → `.env` (gitignored). El banner del UI sigue diciendo **Datos de demostración**. Detalle del seam de datos: [`data/README.md`](./data/README.md).
 
-Leaflet 1.9.4 está vendored en `vendor/leaflet@1.9.4/` (sin CDN). **Leaflet.markercluster 1.5.3** está en `vendor/leaflet.markercluster@1.5.3/` (capa Comunidades). Las tipografías Google Fonts siguen por CDN con fallback a `system-ui`. El basemap satélite usa tiles Esri World Imagery (requiere red; revisar ToS de Esri para uso productivo).
+### Modo estático sin Node (Hito A/B)
 
-### Estructura de código (Hito B)
+Sigue siendo válido servir la carpeta con HTTP (sin bundler). **No abras `index.html` por `file://`**.
+
+```bash
+python3 -m http.server 8000
+# o: npx --yes serve -l 8000
+```
+
+Abrir `http://localhost:8000`.
+
+Leaflet 1.9.4 está en `vendor/leaflet@1.9.4/` (sin CDN). **Leaflet.markercluster 1.5.3** en `vendor/leaflet.markercluster@1.5.3/`. Tipografías Google Fonts por CDN con fallback `system-ui`. Basemap satélite: tiles Esri World Imagery (requiere red; revisar ToS).
+
+### Estructura de código (Hito B + C)
 
 ```
 index.html          # HTML fino (markup + links)
 css/app.css         # Estilos
-js/app.js           # Lógica Leaflet + paneles
+js/app.js           # Lógica Leaflet + paneles (ES module)
+js/data-source.js   # Capa de datos (VITE_DATA_BASE)
+data/README.md      # Cómo apuntar a una API real
+scripts/preview-auth.mjs
+e2e/smoke.spec.js
+vite.config.js
 vendor/leaflet@1.9.4/
 vendor/leaflet.markercluster@1.5.3/
 ```
@@ -61,6 +84,7 @@ vendor/leaflet.markercluster@1.5.3/
 - **Comunidades:** MarkerCluster; marcadores individuales desde zoom ≥ 13.
 - **Export:** botón `⬇ CSV día` exporta bloques/torres/ambientales/actividades del día (o resumen semanal) activo.
 - **Validación liviana:** al cargar, avisos en consola + banner si faltan campos clave (no bloquea el mapa).
+- **Piloto C:** Vite, data layer configurable, mock `/api/data`, preview Basic Auth, smoke Playwright.
 
 ---
 
