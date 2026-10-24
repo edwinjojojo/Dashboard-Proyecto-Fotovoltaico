@@ -1,0 +1,7 @@
+.DS_Store
+*.pyc
+__pycache__/
+.env
+build_index.py
+create_docs.py
+generate_html.py

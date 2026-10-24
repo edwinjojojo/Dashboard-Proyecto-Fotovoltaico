@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estacion_Meteorologica",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "METEO_SOLAR_01",
+      "properties": {
+        "name": "Estación Meteorológica y Solarimetría Principal",
+        "codigo": "EST-METEO-01",
+        "ghi_actual": "942 W/m² (Mediodía Solar)",
+        "dni_actual": "885 W/m²",
+        "gti_plano_modulo": "1.015 W/m²",
+        "temperatura_ambiente": "33.2 °C",
+        "temperatura_celula": "51.8 °C",
+        "velocidad_viento": "5.4 m/s (Brisa marina NE)",
+        "factor_soiling": "98.8 % (Superficie limpia)",
+        "cumplimiento_iec": "IEC 61724-1 Clase A para plantas fotovoltaicas utility-scale",
+        "estado": "Calibrada y operando 100% con enlace SCADA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.019,
+          11.611
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "type": "FeatureCollection",
+  "name": "Linea_Transmision",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "LAT_110KV_GUAJIRA_SOLAR",
+      "properties": {
+        "name": "Línea de Evacuación LAT 110 kV Guajira Solar - SIN",
+        "longitud_km": 8.75,
+        "tension_kv": 110,
+        "circuito": "Sencillo con previsión para doble circuito",
+        "torres_total": 18,
+        "avance_tendido": "62.4 %",
+        "estado": "En ejecución de tendido conductor y cable OPGW"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -72.0046,
+            11.61
+          ],
+          [
+            -72.002082,
+            11.606765
+          ],
+          [
+            -72.002365,
+            11.603529
+          ],
+          [
+            -71.999847,
+            11.600294
+          ],
+          [
+            -72.000129,
+            11.597059
+          ],
+          [
+            -71.997612,
+            11.593824
+          ],
+          [
+            -71.997894,
+            11.590588
+          ],
+          [
+            -71.995376,
+            11.587353
+          ],
+          [
+            -71.995659,
+            11.584118
+          ],
+          [
+            -71.993141,
+            11.580882
+          ],
+          [
+            -71.993424,
+            11.577647
+          ],
+          [
+            -71.990906,
+            11.574412
+          ],
+          [
+            -71.991188,
+            11.571176
+          ],
+          [
+            -71.988671,
+            11.567941
+          ],
+          [
+            -71.988953,
+            11.564706
+          ],
+          [
+            -71.986435,
+            11.561471
+          ],
+          [
+            -71.986718,
+            11.558235
+          ],
+          [
+            -71.9842,
+            11.555
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-01",
+      "properties": {
+        "name": "Torre ST-01",
+        "codigo": "ST-01",
+        "tipo_estructura": "Retención Angular / Terminal",
+        "altura_m": 38.0,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 100,
+        "cimentacion_pct": 100,
+        "izaje_pct": 100,
+        "tendido_pct": 85,
+        "avance_global": 97.0,
+        "estado": "En izaje/tendido"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0046,
+          11.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-02",
+      "properties": {
+        "name": "Torre ST-02",
+        "codigo": "ST-02",
+        "tipo_estructura": "Suspensión Celosía Acero Galvanizado",
+        "altura_m": 32.5,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 96,
+        "cimentacion_pct": 95,
+        "izaje_pct": 94,
+        "tendido_pct": 78,
+        "avance_global": 91.5,
+        "estado": "En izaje/tendido"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.002082,
+          11.606765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-03",
+      "properties": {
+        "name": "Torre ST-03",
+        "codigo": "ST-03",
+        "tipo_estructura": "Suspensión Celosía Acero Galvanizado",
+        "altura_m": 32.5,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 92,
+        "cimentacion_pct": 90,
+        "izaje_pct": 88,
+        "tendido_pct": 71,
+        "avance_global": 86.0,
+        "estado": "En izaje/tendido"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.002365,
+          11.603529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-04",
+      "properties": {
+        "name": "Torre ST-04",
+        "codigo": "ST-04",
+        "tipo_estructura": "Suspensión Celosía Acero Galvanizado",
+        "altura_m": 32.5,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 88,
+        "cimentacion_pct": 85,
+        "izaje_pct": 82,
+        "tendido_pct": 64,
+        "avance_global": 80.5,
+        "estado": "En izaje/tendido"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.999847,
+          11.600294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-05",
+      "properties": {
+        "name": "Torre ST-05",
+        "codigo": "ST-05",
+        "tipo_estructura": "Retención Angular / Terminal",
+        "altura_m": 38.0,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 84,
+        "cimentacion_pct": 80,
+        "izaje_pct": 76,
+        "tendido_pct": 57,
+        "avance_global": 75.0,
+        "estado": "En izaje/tendido"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.000129,
+          11.597059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-06",
+      "properties": {
+        "name": "Torre ST-06",
+        "codigo": "ST-06",
+        "tipo_estructura": "Suspensión Celosía Acero Galvanizado",
+        "altura_m": 32.5,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 80,
+        "cimentacion_pct": 75,
+        "izaje_pct": 70,
+        "tendido_pct": 50,
+        "avance_global": 69.5,
+        "estado": "En izaje/tendido"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.997612,
+          11.593824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-07",
+      "properties": {
+        "name": "Torre ST-07",
+        "codigo": "ST-07",
+        "tipo_estructura": "Suspensión Celosía Acero Galvanizado",
+        "altura_m": 32.5,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 76,
+        "cimentacion_pct": 70,
+        "izaje_pct": 64,
+        "tendido_pct": 43,
+        "avance_global": 64.0,
+        "estado": "En izaje/tendido"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.997894,
+          11.590588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-08",
+      "properties": {
+        "name": "Torre ST-08",
+        "codigo": "ST-08",
+        "tipo_estructura": "Suspensión Celosía Acero Galvanizado",
+        "altura_m": 32.5,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 72,
+        "cimentacion_pct": 65,
+        "izaje_pct": 58,
+        "tendido_pct": 36,
+        "avance_global": 58.5,
+        "estado": "En izaje/tendido"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.995376,
+          11.587353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-09",
+      "properties": {
+        "name": "Torre ST-09",
+        "codigo": "ST-09",
+        "tipo_estructura": "Retención Angular / Terminal",
+        "altura_m": 38.0,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 68,
+        "cimentacion_pct": 60,
+        "izaje_pct": 52,
+        "tendido_pct": 29,
+        "avance_global": 53.0,
+        "estado": "En izaje/tendido"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.995659,
+          11.584118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-10",
+      "properties": {
+        "name": "Torre ST-10",
+        "codigo": "ST-10",
+        "tipo_estructura": "Suspensión Celosía Acero Galvanizado",
+        "altura_m": 32.5,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 64,
+        "cimentacion_pct": 55,
+        "izaje_pct": 46,
+        "tendido_pct": 22,
+        "avance_global": 47.5,
+        "estado": "En cimentación"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.993141,
+          11.580882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-11",
+      "properties": {
+        "name": "Torre ST-11",
+        "codigo": "ST-11",
+        "tipo_estructura": "Suspensión Celosía Acero Galvanizado",
+        "altura_m": 32.5,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 60,
+        "cimentacion_pct": 50,
+        "izaje_pct": 40,
+        "tendido_pct": 15,
+        "avance_global": 42.0,
+        "estado": "En cimentación"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.993424,
+          11.577647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-12",
+      "properties": {
+        "name": "Torre ST-12",
+        "codigo": "ST-12",
+        "tipo_estructura": "Suspensión Celosía Acero Galvanizado",
+        "altura_m": 32.5,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 56,
+        "cimentacion_pct": 45,
+        "izaje_pct": 34,
+        "tendido_pct": 8,
+        "avance_global": 36.5,
+        "estado": "En cimentación"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.990906,
+          11.574412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-13",
+      "properties": {
+        "name": "Torre ST-13",
+        "codigo": "ST-13",
+        "tipo_estructura": "Retención Angular / Terminal",
+        "altura_m": 38.0,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 52,
+        "cimentacion_pct": 40,
+        "izaje_pct": 28,
+        "tendido_pct": 1,
+        "avance_global": 31.0,
+        "estado": "En cimentación"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.991188,
+          11.571176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-14",
+      "properties": {
+        "name": "Torre ST-14",
+        "codigo": "ST-14",
+        "tipo_estructura": "Suspensión Celosía Acero Galvanizado",
+        "altura_m": 32.5,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 48,
+        "cimentacion_pct": 35,
+        "izaje_pct": 22,
+        "tendido_pct": 0,
+        "avance_global": 26.7,
+        "estado": "En cimentación"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.988671,
+          11.567941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-15",
+      "properties": {
+        "name": "Torre ST-15",
+        "codigo": "ST-15",
+        "tipo_estructura": "Suspensión Celosía Acero Galvanizado",
+        "altura_m": 32.5,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 44,
+        "cimentacion_pct": 30,
+        "izaje_pct": 16,
+        "tendido_pct": 0,
+        "avance_global": 22.6,
+        "estado": "En cimentación"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.988953,
+          11.564706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-16",
+      "properties": {
+        "name": "Torre ST-16",
+        "codigo": "ST-16",
+        "tipo_estructura": "Suspensión Celosía Acero Galvanizado",
+        "altura_m": 32.5,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 40,
+        "cimentacion_pct": 25,
+        "izaje_pct": 10,
+        "tendido_pct": 0,
+        "avance_global": 18.5,
+        "estado": "En cimentación"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.986435,
+          11.561471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-17",
+      "properties": {
+        "name": "Torre ST-17",
+        "codigo": "ST-17",
+        "tipo_estructura": "Retención Angular / Terminal",
+        "altura_m": 38.0,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 36,
+        "cimentacion_pct": 20,
+        "izaje_pct": 4,
+        "tendido_pct": 0,
+        "avance_global": 14.4,
+        "estado": "En cimentación"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.986718,
+          11.558235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-18",
+      "properties": {
+        "name": "Torre ST-18",
+        "codigo": "ST-18",
+        "tipo_estructura": "Suspensión Celosía Acero Galvanizado",
+        "altura_m": 32.5,
+        "vano_m": 420,
+        "conductor": "ACSR 477 kcmil Hawk + OPGW 24 fibras",
+        "excavacion_pct": 32,
+        "cimentacion_pct": 15,
+        "izaje_pct": 0,
+        "tendido_pct": 0,
+        "avance_global": 10.9,
+        "estado": "En cimentación"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9842,
+          11.555
+        ]
+      }
+    }
+  ]
+}

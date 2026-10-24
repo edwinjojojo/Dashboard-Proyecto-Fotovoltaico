@@ -1,0 +1,246 @@
+{
+  "type": "FeatureCollection",
+  "name": "Inversores_Transformadores",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "INV_CT-01",
+      "properties": {
+        "name": "Centro de Transformación CT-01",
+        "codigo": "CT-01",
+        "bloque_id": "FV-01",
+        "potencia_mva": 3.5,
+        "tension_bt_mt": "0.69 kV / 34.5 kV",
+        "tipo": "Skid Centralizado Inversor + Transformador",
+        "marca_inversor": "Inversor Central 3500 kW",
+        "strings_conectados": 1440,
+        "celda_mt": "Celda SF6 Motorizada 34.5 kV",
+        "estado": "Operativo / En pruebas",
+        "avance_skid": 88.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0255,
+          11.626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INV_CT-02",
+      "properties": {
+        "name": "Centro de Transformación CT-02",
+        "codigo": "CT-02",
+        "bloque_id": "FV-02",
+        "potencia_mva": 3.5,
+        "tension_bt_mt": "0.69 kV / 34.5 kV",
+        "tipo": "Skid Centralizado Inversor + Transformador",
+        "marca_inversor": "Inversor Central 3500 kW",
+        "strings_conectados": 1440,
+        "celda_mt": "Celda SF6 Motorizada 34.5 kV",
+        "estado": "Operativo / En pruebas",
+        "avance_skid": 77.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0125,
+          11.626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INV_CT-03",
+      "properties": {
+        "name": "Centro de Transformación CT-03",
+        "codigo": "CT-03",
+        "bloque_id": "FV-03",
+        "potencia_mva": 3.5,
+        "tension_bt_mt": "0.69 kV / 34.5 kV",
+        "tipo": "Skid Centralizado Inversor + Transformador",
+        "marca_inversor": "Inversor Central 3500 kW",
+        "strings_conectados": 1440,
+        "celda_mt": "Celda SF6 Motorizada 34.5 kV",
+        "estado": "En conexionado",
+        "avance_skid": 67.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0255,
+          11.618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INV_CT-04",
+      "properties": {
+        "name": "Centro de Transformación CT-04",
+        "codigo": "CT-04",
+        "bloque_id": "FV-04",
+        "potencia_mva": 3.5,
+        "tension_bt_mt": "0.69 kV / 34.5 kV",
+        "tipo": "Skid Centralizado Inversor + Transformador",
+        "marca_inversor": "Inversor Central 3500 kW",
+        "strings_conectados": 1440,
+        "celda_mt": "Celda SF6 Motorizada 34.5 kV",
+        "estado": "En conexionado",
+        "avance_skid": 57.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0125,
+          11.618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INV_CT-05",
+      "properties": {
+        "name": "Centro de Transformación CT-05",
+        "codigo": "CT-05",
+        "bloque_id": "FV-05",
+        "potencia_mva": 3.5,
+        "tension_bt_mt": "0.69 kV / 34.5 kV",
+        "tipo": "Skid Centralizado Inversor + Transformador",
+        "marca_inversor": "Inversor Central 3500 kW",
+        "strings_conectados": 1440,
+        "celda_mt": "Celda SF6 Motorizada 34.5 kV",
+        "estado": "En conexionado",
+        "avance_skid": 45.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0255,
+          11.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INV_CT-06",
+      "properties": {
+        "name": "Centro de Transformación CT-06",
+        "codigo": "CT-06",
+        "bloque_id": "FV-06",
+        "potencia_mva": 3.5,
+        "tension_bt_mt": "0.69 kV / 34.5 kV",
+        "tipo": "Skid Centralizado Inversor + Transformador",
+        "marca_inversor": "Inversor Central 3500 kW",
+        "strings_conectados": 1440,
+        "celda_mt": "Celda SF6 Motorizada 34.5 kV",
+        "estado": "En conexionado",
+        "avance_skid": 35.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0125,
+          11.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INV_CT-07",
+      "properties": {
+        "name": "Centro de Transformación CT-07",
+        "codigo": "CT-07",
+        "bloque_id": "FV-07",
+        "potencia_mva": 3.5,
+        "tension_bt_mt": "0.69 kV / 34.5 kV",
+        "tipo": "Skid Centralizado Inversor + Transformador",
+        "marca_inversor": "Inversor Central 3500 kW",
+        "strings_conectados": 1440,
+        "celda_mt": "Celda SF6 Motorizada 34.5 kV",
+        "estado": "Montaje electromecánico",
+        "avance_skid": 22.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0255,
+          11.602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INV_CT-08",
+      "properties": {
+        "name": "Centro de Transformación CT-08",
+        "codigo": "CT-08",
+        "bloque_id": "FV-08",
+        "potencia_mva": 3.5,
+        "tension_bt_mt": "0.69 kV / 34.5 kV",
+        "tipo": "Skid Centralizado Inversor + Transformador",
+        "marca_inversor": "Inversor Central 3500 kW",
+        "strings_conectados": 1440,
+        "celda_mt": "Celda SF6 Motorizada 34.5 kV",
+        "estado": "Montaje electromecánico",
+        "avance_skid": 14.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0125,
+          11.602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INV_CT-09",
+      "properties": {
+        "name": "Centro de Transformación CT-09",
+        "codigo": "CT-09",
+        "bloque_id": "FV-09",
+        "potencia_mva": 3.5,
+        "tension_bt_mt": "0.69 kV / 34.5 kV",
+        "tipo": "Skid Centralizado Inversor + Transformador",
+        "marca_inversor": "Inversor Central 3500 kW",
+        "strings_conectados": 1280,
+        "celda_mt": "Celda SF6 Motorizada 34.5 kV",
+        "estado": "Montaje electromecánico",
+        "avance_skid": 5.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0255,
+          11.594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INV_CT-10",
+      "properties": {
+        "name": "Centro de Transformación CT-10",
+        "codigo": "CT-10",
+        "bloque_id": "FV-10",
+        "potencia_mva": 3.5,
+        "tension_bt_mt": "0.69 kV / 34.5 kV",
+        "tipo": "Skid Centralizado Inversor + Transformador",
+        "marca_inversor": "Inversor Central 3500 kW",
+        "strings_conectados": 1280,
+        "celda_mt": "Celda SF6 Motorizada 34.5 kV",
+        "estado": "Montaje electromecánico",
+        "avance_skid": 2.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0125,
+          11.594
+        ]
+      }
+    }
+  ]
+}

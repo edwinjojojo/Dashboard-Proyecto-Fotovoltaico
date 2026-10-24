@@ -1,0 +1,806 @@
+{
+  "defaultWeekId": "2026-10-12",
+  "weeks": [
+    {
+      "id": "2026-09-28",
+      "sheet": "28-09 a 04-10",
+      "label": "28 de sep al 04 de oct 2026",
+      "days": [
+        {
+          "key": "monday",
+          "name": "Lunes",
+          "date": "28",
+          "label": "Lunes 28-09",
+          "blocks": [
+            "FV-06",
+            "FV-07",
+            "FV-08"
+          ],
+          "towers": [
+            "ST-06",
+            "ST-07",
+            "ST-08"
+          ],
+          "ambientales": [
+            "FAU-01",
+            "OD-03"
+          ],
+          "activities": [
+            {
+              "front": "Frente Biótico",
+              "title": "Ahuyentamiento y rescate previo de fauna silvestre",
+              "location": "Bloque FV-08 (Sector Sur)"
+            },
+            {
+              "front": "Frente Hincado",
+              "title": "Hincado mecánico de perfiles para trackers 1P",
+              "location": "Bloque FV-07 (Lote Central)"
+            },
+            {
+              "front": "Frente Estructura",
+              "title": "Ensamble de ejes de torsión y brazos de seguidor",
+              "location": "Bloque FV-06"
+            },
+            {
+              "front": "Frente Módulos",
+              "title": "Instalación de paneles solares bifaciales 600Wp",
+              "location": "Bloque FV-05"
+            },
+            {
+              "front": "Frente Eléctrico DC",
+              "title": "Zanjeo y tendido de cable solar 1.5 kV DC",
+              "location": "Bloque FV-04"
+            },
+            {
+              "front": "Frente Drenajes",
+              "title": "Conformación de canal perimetral y trampa de sedimentos",
+              "location": "OD-03 (Costado Oeste)"
+            },
+            {
+              "front": "Frente Línea 110kV",
+              "title": "Armado e izaje de estructura celosía",
+              "location": "Torre ST-07"
+            },
+            {
+              "front": "Frente Subestación",
+              "title": "Cimentación de bancadas de transformador principal",
+              "location": "SE Guajira Solar"
+            },
+            {
+              "front": "Frente Social",
+              "title": "Atención comunitaria en oficina PAC Maicao y socialización",
+              "location": "Comunidad Maashumana"
+            }
+          ]
+        },
+        {
+          "key": "tuesday",
+          "name": "Martes",
+          "date": "29",
+          "label": "Martes 29-09",
+          "blocks": [
+            "FV-06",
+            "FV-07",
+            "FV-08"
+          ],
+          "towers": [
+            "ST-07",
+            "ST-08"
+          ],
+          "ambientales": [
+            "OD-03",
+            "VIV-01"
+          ],
+          "activities": [
+            {
+              "front": "Frente Hincado",
+              "title": "Control topográfico e hincado de perfiles",
+              "location": "Bloque FV-07"
+            },
+            {
+              "front": "Frente Estructura",
+              "title": "Torqueo y verificación de alineación de trackers",
+              "location": "Bloque FV-06"
+            },
+            {
+              "front": "Frente Módulos",
+              "title": "Instalación de paneles solares bifaciales",
+              "location": "Bloque FV-05"
+            },
+            {
+              "front": "Frente Eléctrico DC",
+              "title": "Conexionado de strings en combiner boxes",
+              "location": "Bloque FV-04"
+            },
+            {
+              "front": "Frente Ambiental",
+              "title": "Riego y aclimatación de cactáceas en vivero temporal",
+              "location": "VIV-01 Campamento"
+            },
+            {
+              "front": "Frente Línea 110kV",
+              "title": "Vaciado de concreto en pedestales de cimentación",
+              "location": "Torre ST-08"
+            },
+            {
+              "front": "Frente Social",
+              "title": "Mesa de concertación sobre mano de obra local",
+              "location": "Comunidad Jamucherra"
+            }
+          ]
+        },
+        {
+          "key": "wednesday",
+          "name": "Miércoles",
+          "date": "30",
+          "label": "Miércoles 30-09",
+          "blocks": [
+            "FV-05",
+            "FV-06",
+            "FV-07"
+          ],
+          "towers": [
+            "ST-08",
+            "ST-09"
+          ],
+          "ambientales": [
+            "OD-04"
+          ],
+          "activities": [
+            {
+              "front": "Frente Hincado",
+              "title": "Hincado de postes en sector sur",
+              "location": "Bloque FV-08"
+            },
+            {
+              "front": "Frente Estructura",
+              "title": "Montaje de motores de accionamiento y cardanes",
+              "location": "Bloque FV-06"
+            },
+            {
+              "front": "Frente Módulos",
+              "title": "Montaje de módulos bifaciales y puesta a tierra",
+              "location": "Bloque FV-05"
+            },
+            {
+              "front": "Frente Obras de Paso",
+              "title": "Instalación de tubería Novafort Ø36 pulg para drenaje",
+              "location": "OD-04"
+            },
+            {
+              "front": "Frente Subestación",
+              "title": "Tendido de malla de puesta a tierra en patio 110 kV",
+              "location": "SE Guajira Solar"
+            },
+            {
+              "front": "Frente Social",
+              "title": "Visita técnica a proyecto escolar de bombeo solar",
+              "location": "Comunidad Cañaveral"
+            }
+          ]
+        },
+        {
+          "key": "thursday",
+          "name": "Jueves",
+          "date": "01",
+          "label": "Jueves 01-10",
+          "blocks": [
+            "FV-04",
+            "FV-05",
+            "FV-07"
+          ],
+          "towers": [
+            "ST-09"
+          ],
+          "ambientales": [
+            "COMP-01"
+          ],
+          "activities": [
+            {
+              "front": "Frente Hincado",
+              "title": "Ensayos de tracción y carga lateral de hincas",
+              "location": "Bloque FV-07"
+            },
+            {
+              "front": "Frente Módulos",
+              "title": "Instalación de módulos fotovoltaicos",
+              "location": "Bloque FV-04"
+            },
+            {
+              "front": "Frente Centro Transf.",
+              "title": "Montaje de transformador 3.5 MVA en Skid",
+              "location": "Centro CT-04"
+            },
+            {
+              "front": "Frente Compensación",
+              "title": "Siembra de plántulas nativas (Guayacán y Dividivi)",
+              "location": "COMP-01 Ribera Arroyo"
+            },
+            {
+              "front": "Frente Línea 110kV",
+              "title": "Montaje de crucetas y aisladores poliméricos",
+              "location": "Torre ST-09"
+            },
+            {
+              "front": "Frente Social",
+              "title": "Socialización de medidas de seguridad y PMT vial",
+              "location": "Comunidad Amalipa"
+            }
+          ]
+        },
+        {
+          "key": "friday",
+          "name": "Viernes",
+          "date": "02",
+          "label": "Viernes 02-10",
+          "blocks": [
+            "FV-03",
+            "FV-04",
+            "FV-05"
+          ],
+          "towers": [
+            "ST-08",
+            "ST-09"
+          ],
+          "ambientales": [
+            "FAU-01",
+            "OD-03"
+          ],
+          "activities": [
+            {
+              "front": "Frente Comisionamiento",
+              "title": "Pruebas de curvas I-V y electroluminiscencia",
+              "location": "Bloque FV-02"
+            },
+            {
+              "front": "Frente Módulos",
+              "title": "Alineación y fijación de paneles bifaciales",
+              "location": "Bloque FV-04"
+            },
+            {
+              "front": "Frente Cableado MT",
+              "title": "Tendido de cable 35 kV Al XLPE en zanja principal",
+              "location": "Troncal MT Norte"
+            },
+            {
+              "front": "Frente Biótico",
+              "title": "Monitoreo perimetral y ahuyentamiento de herpetofauna",
+              "location": "FAU-01 Bloques 1-2"
+            },
+            {
+              "front": "Frente SST",
+              "title": "Capacitación semanal en seguridad eléctrica y calor extremo",
+              "location": "Patio Central"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-10-05",
+      "sheet": "05-10 a 11-10",
+      "label": "05 al 11 de octubre 2026",
+      "days": [
+        {
+          "key": "monday",
+          "name": "Lunes",
+          "date": "05",
+          "label": "Lunes 05-10",
+          "blocks": [
+            "FV-07",
+            "FV-08",
+            "FV-09"
+          ],
+          "towers": [
+            "ST-10",
+            "ST-11"
+          ],
+          "ambientales": [
+            "FAU-01",
+            "OD-04"
+          ],
+          "activities": [
+            {
+              "front": "Frente Biótico",
+              "title": "Ahuyentamiento y rescate biótico previo a hincado",
+              "location": "Bloque FV-09"
+            },
+            {
+              "front": "Frente Hincado",
+              "title": "Operación de hincadoras hidráulicas sobre ejes de tracker",
+              "location": "Bloque FV-08"
+            },
+            {
+              "front": "Frente Estructura",
+              "title": "Montaje de vigas torsionales y rodamientos esféricos",
+              "location": "Bloque FV-07"
+            },
+            {
+              "front": "Frente Módulos",
+              "title": "Descargue y montaje de módulos fotovoltaicos",
+              "location": "Bloque FV-05"
+            },
+            {
+              "front": "Frente Eléctrico DC",
+              "title": "Canalización de zanjas secundarias y lecho de arena",
+              "location": "Bloque FV-06"
+            },
+            {
+              "front": "Frente Línea 110kV",
+              "title": "Excavación y armado de parrillas de acero",
+              "location": "Torre ST-10"
+            },
+            {
+              "front": "Frente Social",
+              "title": "Reunión de avance con comité de empleo comunitario",
+              "location": "Comunidad Pioreka"
+            }
+          ]
+        },
+        {
+          "key": "tuesday",
+          "name": "Martes",
+          "date": "06",
+          "label": "Martes 06-10",
+          "blocks": [
+            "FV-07",
+            "FV-08"
+          ],
+          "towers": [
+            "ST-10",
+            "ST-11"
+          ],
+          "ambientales": [
+            "OD-04",
+            "VIV-01"
+          ],
+          "activities": [
+            {
+              "front": "Frente Hincado",
+              "title": "Hincado de postes y control de verticalidad láser",
+              "location": "Bloque FV-08"
+            },
+            {
+              "front": "Frente Estructura",
+              "title": "Instalación de brazos porta-módulos en trackers",
+              "location": "Bloque FV-07"
+            },
+            {
+              "front": "Frente Módulos",
+              "title": "Montaje de paneles bifaciales N-Type",
+              "location": "Bloque FV-05"
+            },
+            {
+              "front": "Frente Skid MT",
+              "title": "Conexionado de celdas 34.5 kV y transformador",
+              "location": "Centro CT-05"
+            },
+            {
+              "front": "Frente Línea 110kV",
+              "title": "Vaciado de concreto en zapatas",
+              "location": "Torre ST-11"
+            },
+            {
+              "front": "Frente Social",
+              "title": "Atención de PQRS en PAC y registro de acuerdos",
+              "location": "Oficina Maicao PAC"
+            }
+          ]
+        },
+        {
+          "key": "wednesday",
+          "name": "Miércoles",
+          "date": "07",
+          "label": "Miércoles 07-10",
+          "blocks": [
+            "FV-06",
+            "FV-07",
+            "FV-08"
+          ],
+          "towers": [
+            "ST-11",
+            "ST-12"
+          ],
+          "ambientales": [
+            "OD-05"
+          ],
+          "activities": [
+            {
+              "front": "Frente Hincado",
+              "title": "Replanteo topográfico de ejes e hincado",
+              "location": "Bloque FV-08"
+            },
+            {
+              "front": "Frente Estructura",
+              "title": "Ensamble de seguidores solares 1P",
+              "location": "Bloque FV-07"
+            },
+            {
+              "front": "Frente Módulos",
+              "title": "Instalación de paneles solares bifaciales",
+              "location": "Bloque FV-06"
+            },
+            {
+              "front": "Frente Drenaje",
+              "title": "Excavación para trampa de sedimentos y gavión",
+              "location": "OD-05"
+            },
+            {
+              "front": "Frente Subestación",
+              "title": "Instalación de equipos de patio y seccionadores 110kV",
+              "location": "SE Guajira Solar"
+            },
+            {
+              "front": "Frente Social",
+              "title": "Taller formativo sobre transición energética y energía solar",
+              "location": "Comunidad Kijotchon"
+            }
+          ]
+        },
+        {
+          "key": "thursday",
+          "name": "Jueves",
+          "date": "08",
+          "label": "Jueves 08-10",
+          "blocks": [
+            "FV-05",
+            "FV-06"
+          ],
+          "towers": [
+            "ST-12"
+          ],
+          "ambientales": [
+            "COMP-01"
+          ],
+          "activities": [
+            {
+              "front": "Frente Módulos",
+              "title": "Instalación masiva de paneles fotovoltaicos",
+              "location": "Bloque FV-06"
+            },
+            {
+              "front": "Frente Cableado DC",
+              "title": "Conexionado de strings fotovoltaicos a inversores",
+              "location": "Bloque FV-05"
+            },
+            {
+              "front": "Frente Centro Transf.",
+              "title": "Pruebas de aislamiento en transformador elevador",
+              "location": "Centro CT-05"
+            },
+            {
+              "front": "Frente Compensación",
+              "title": "Mantenimiento y deshierbe en parcela de compensación",
+              "location": "COMP-01"
+            },
+            {
+              "front": "Frente Línea 110kV",
+              "title": "Armado de celosía cuerpo medio de torre",
+              "location": "Torre ST-12"
+            },
+            {
+              "front": "Frente Social",
+              "title": "Entrega de actas de vecindad a predios colindantes",
+              "location": "Predios Sur"
+            }
+          ]
+        },
+        {
+          "key": "friday",
+          "name": "Viernes",
+          "date": "09",
+          "label": "Viernes 09-10",
+          "blocks": [
+            "FV-04",
+            "FV-05",
+            "FV-06"
+          ],
+          "towers": [
+            "ST-11",
+            "ST-12"
+          ],
+          "ambientales": [
+            "FAU-01",
+            "OD-04"
+          ],
+          "activities": [
+            {
+              "front": "Frente Comisionamiento",
+              "title": "Pruebas de tracking y algoritmos astronómicos",
+              "location": "Bloque FV-03"
+            },
+            {
+              "front": "Frente Módulos",
+              "title": "Montaje de paneles bifaciales",
+              "location": "Bloque FV-06"
+            },
+            {
+              "front": "Frente Cableado MT",
+              "title": "Pruebas VLF de muy baja frecuencia en cables 34.5 kV",
+              "location": "Circuito MT Centro"
+            },
+            {
+              "front": "Frente Biótico",
+              "title": "Reubicación de especímenes rescatados a zona de reserva",
+              "location": "FAU-02 Corredor Sur"
+            },
+            {
+              "front": "Frente SST",
+              "title": "Auditoría de seguridad y orden y aseo en frentes de obra",
+              "location": "Todos los frentes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-10-12",
+      "sheet": "12-10 a 18-10",
+      "label": "12 al 18 de octubre 2026",
+      "days": [
+        {
+          "key": "monday",
+          "name": "Lunes",
+          "date": "12",
+          "label": "Lunes 12-10",
+          "blocks": [
+            "FV-08",
+            "FV-09",
+            "FV-10"
+          ],
+          "towers": [
+            "ST-12",
+            "ST-13",
+            "ST-14"
+          ],
+          "ambientales": [
+            "FAU-01",
+            "OD-05"
+          ],
+          "activities": [
+            {
+              "front": "Frente Biótico",
+              "title": "Censo y ahuyentamiento de fauna en frente de desbroce",
+              "location": "Bloque FV-10"
+            },
+            {
+              "front": "Frente Hincado",
+              "title": "Hincado masivo de postes en Bloque Sur A",
+              "location": "Bloque FV-09"
+            },
+            {
+              "front": "Frente Estructura",
+              "title": "Montaje de seguidores y ajuste de torquímetros",
+              "location": "Bloque FV-08"
+            },
+            {
+              "front": "Frente Módulos",
+              "title": "Montaje e instalación de paneles bifaciales",
+              "location": "Bloque FV-06"
+            },
+            {
+              "front": "Frente Eléctrico DC",
+              "title": "Tendido de cadenas de strings fotovoltaicos",
+              "location": "Bloque FV-05"
+            },
+            {
+              "front": "Frente Línea 110kV",
+              "title": "Izaje de torre con pluma grúa",
+              "location": "Torre ST-13"
+            },
+            {
+              "front": "Frente Subestación",
+              "title": "Montaje de transformador de potencia 160 MVA",
+              "location": "SE Guajira Solar"
+            },
+            {
+              "front": "Frente Social",
+              "title": "Socialización de avance de obra y protocolo de contratación",
+              "location": "Comunidad Pajakat"
+            }
+          ]
+        },
+        {
+          "key": "tuesday",
+          "name": "Martes",
+          "date": "13",
+          "label": "Martes 13-10",
+          "blocks": [
+            "FV-08",
+            "FV-09"
+          ],
+          "towers": [
+            "ST-13",
+            "ST-14"
+          ],
+          "ambientales": [
+            "VIV-01",
+            "OD-05"
+          ],
+          "activities": [
+            {
+              "front": "Frente Hincado",
+              "title": "Hincado mecánico de perfiles",
+              "location": "Bloque FV-09"
+            },
+            {
+              "front": "Frente Estructura",
+              "title": "Montaje de tubos de torsión y consolas",
+              "location": "Bloque FV-08"
+            },
+            {
+              "front": "Frente Módulos",
+              "title": "Instalación de paneles solares bifaciales",
+              "location": "Bloque FV-07"
+            },
+            {
+              "front": "Frente Centro Transf.",
+              "title": "Montaje de Skid inversor central 3.5 MVA",
+              "location": "Centro CT-06"
+            },
+            {
+              "front": "Frente Ambiental",
+              "title": "Rescate y traslado de cactáceas melocactus al vivero",
+              "location": "VIV-01"
+            },
+            {
+              "front": "Frente Línea 110kV",
+              "title": "Preparación de tendido de hilo de guarda OPGW",
+              "location": "Torre ST-12 a ST-14"
+            },
+            {
+              "front": "Frente Social",
+              "title": "Punto de Atención Móvil y seguimiento a compromisos",
+              "location": "Comunidad Romana"
+            }
+          ]
+        },
+        {
+          "key": "wednesday",
+          "name": "Miércoles",
+          "date": "14",
+          "label": "Miércoles 14-10",
+          "blocks": [
+            "FV-07",
+            "FV-08",
+            "FV-09"
+          ],
+          "towers": [
+            "ST-14",
+            "ST-15"
+          ],
+          "ambientales": [
+            "OD-04"
+          ],
+          "activities": [
+            {
+              "front": "Frente Hincado",
+              "title": "Hincado y replanteo de hincas de tracker",
+              "location": "Bloque FV-09"
+            },
+            {
+              "front": "Frente Estructura",
+              "title": "Calibración angular y verificación de backtracking",
+              "location": "Bloque FV-07"
+            },
+            {
+              "front": "Frente Módulos",
+              "title": "Montaje de módulos bifaciales N-Type",
+              "location": "Bloque FV-07"
+            },
+            {
+              "front": "Frente Obras Drenaje",
+              "title": "Vaciado de cabezal de descarga en alcantarilla",
+              "location": "OD-04"
+            },
+            {
+              "front": "Frente Subestación",
+              "title": "Instalación de celdas GIS 34.5 kV y cableado de control",
+              "location": "Edificio Control SE"
+            },
+            {
+              "front": "Frente Social",
+              "title": "Taller participativo sobre monitoreo ambiental con veeduría",
+              "location": "Comunidad Maashumana"
+            }
+          ]
+        },
+        {
+          "key": "thursday",
+          "name": "Jueves",
+          "date": "15",
+          "label": "Jueves 15-10",
+          "blocks": [
+            "FV-06",
+            "FV-07",
+            "FV-09"
+          ],
+          "towers": [
+            "ST-15"
+          ],
+          "ambientales": [
+            "COMP-01"
+          ],
+          "activities": [
+            {
+              "front": "Frente Hincado",
+              "title": "Pruebas de torque e hincado en zona sur",
+              "location": "Bloque FV-09"
+            },
+            {
+              "front": "Frente Módulos",
+              "title": "Montaje de paneles solares fotovoltaicos",
+              "location": "Bloque FV-07"
+            },
+            {
+              "front": "Frente Cableado DC",
+              "title": "Pruebas de polaridad y conexionado string boxes",
+              "location": "Bloque FV-06"
+            },
+            {
+              "front": "Frente Estación Meteo",
+              "title": "Calibración y limpieza de piranómetros Clase A",
+              "location": "Estación Meteorológica"
+            },
+            {
+              "front": "Frente Línea 110kV",
+              "title": "Tendido de conductor ACSR Hawk mediante winche freno",
+              "location": "Vano ST-13 - ST-15"
+            },
+            {
+              "front": "Frente Social",
+              "title": "Seguimiento a proyecto de energización solar en escuela",
+              "location": "Comunidad Jamucherra"
+            }
+          ]
+        },
+        {
+          "key": "friday",
+          "name": "Viernes",
+          "date": "16",
+          "label": "Viernes 16-10",
+          "blocks": [
+            "FV-05",
+            "FV-06",
+            "FV-07"
+          ],
+          "towers": [
+            "ST-14",
+            "ST-15"
+          ],
+          "ambientales": [
+            "FAU-01",
+            "OD-05"
+          ],
+          "activities": [
+            {
+              "front": "Frente Comisionamiento",
+              "title": "Ensayos de energización en vacío Bloque FV-01 y FV-02",
+              "location": "Bloques FV-01/02"
+            },
+            {
+              "front": "Frente Módulos",
+              "title": "Alineación y fijación mecánica de módulos",
+              "location": "Bloque FV-07"
+            },
+            {
+              "front": "Frente Cableado MT",
+              "title": "Empalmes termorretráctiles y conexionado a celdas",
+              "location": "Circuito Colector MT"
+            },
+            {
+              "front": "Frente Biótico",
+              "title": "Recorrido de inspección y registro biótico de avifauna",
+              "location": "Cerramiento Parque"
+            },
+            {
+              "front": "Frente Dirección Obra",
+              "title": "Comité semanal de seguimiento de avance físico y PMA",
+              "location": "Campamento de Obra"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

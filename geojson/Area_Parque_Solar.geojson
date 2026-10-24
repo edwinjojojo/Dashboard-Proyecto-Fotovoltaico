@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "name": "Area_Parque_Solar",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PARQUE_SOLAR_SOL_GUAJIRA",
+      "properties": {
+        "name": "Parque Solar Fotovoltaico Sol de La Guajira",
+        "EXPEDIENTE_ANLA": "LAV0058-00-2023",
+        "OPERADOR": "ENERGÍA RENOVABLE DEL CARIBE S.A.S. E.S.P.",
+        "PROYECTO": "PARQUE SOLAR FOTOVOLTAICO SOL DE LA GUAJIRA 200 MWp",
+        "CAPACIDAD_MWP": 196.8,
+        "CAPACIDAD_MW_AC": 160.0,
+        "AREA_HA": 1534.89,
+        "MODULOS_TOTAL": 328000,
+        "TRACKERS_TOTAL": 3280,
+        "TECNOLOGIA": "Módulos Bifaciales N-Type TOPCon + Trackers 1P",
+        "IRRADIACION_GHI_ANUAL": "2.240 kWh/m²/año",
+        "FACTOR_PLANTA": "28.4 %",
+        "GENERACION_ESTIMADA": "415 GWh/año",
+        "CO2_EVITADO_ANUAL": "186.750 Ton CO2eq/año",
+        "HOGARES_EQUIVALENTES": "210.000 hogares",
+        "ESTADO_LICENCIA": "Resolución ANLA No. 01842 - Vigente",
+        "CERRAMIENTO_KM": "19.8 km (Malla tipo ciclón con pasafauna ciego inferior)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.0335,
+              11.5885
+            ],
+            [
+              -72.0045,
+              11.5885
+            ],
+            [
+              -72.0045,
+              11.6315
+            ],
+            [
+              -72.0335,
+              11.6315
+            ],
+            [
+              -72.0335,
+              11.5885
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
