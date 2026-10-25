@@ -9,8 +9,10 @@
  */
 
 const RAW = import.meta.env.VITE_DATA_BASE ?? '';
-/** Base URL without trailing slash. Empty = same-origin relative paths. */
+/** Base URL without trailing slash. Empty = same-origin under Vite `base` (GitHub Pages). */
 export const DATA_BASE = String(RAW).replace(/\/$/, '');
+/** Vite base always ends with `/` (e.g. `/Dashboard-Proyecto-Fotovoltaico/`). */
+const APP_BASE = import.meta.env.BASE_URL || './';
 
 /**
  * Resolve a project-relative data path to a fetchable URL.
@@ -18,8 +20,15 @@ export const DATA_BASE = String(RAW).replace(/\/$/, '');
  */
 export function dataUrl(relativePath) {
   const clean = String(relativePath).replace(/^\.\//, '');
-  if (!DATA_BASE) return `./${clean}`;
-  return `${DATA_BASE}/${clean}`;
+  if (!DATA_BASE) {
+    // Honor Vite `base` so Pages project sites resolve geojson/JSON correctly.
+    return `${APP_BASE}${clean}`;
+  }
+  // Absolute API base (http…) or site-root path (/api/data) — leave as-is.
+  if (/^(https?:)?\/\//.test(DATA_BASE) || DATA_BASE.startsWith('/')) {
+    return `${DATA_BASE}/${clean}`;
+  }
+  return `${APP_BASE}${DATA_BASE}/${clean}`;
 }
 
 /**

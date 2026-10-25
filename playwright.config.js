@@ -1,7 +1,10 @@
 import { defineConfig, devices } from '@playwright/test';
 
 const PORT = 4173;
-const BASE = `http://127.0.0.1:${PORT}`;
+/** Must match vite.config.js `base` (GitHub project Pages). */
+const APP_BASE = '/Dashboard-Proyecto-Fotovoltaico/';
+const ORIGIN = `http://127.0.0.1:${PORT}`;
+const BASE = `${ORIGIN}${APP_BASE}`;
 
 export default defineConfig({
   testDir: 'e2e',
