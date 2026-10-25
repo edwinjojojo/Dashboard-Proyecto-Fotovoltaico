@@ -1,0 +1,516 @@
+{
+  "type": "FeatureCollection",
+  "name": "Bloques_Solares",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "FV-01",
+      "properties": {
+        "id": "FV-01",
+        "name": "Bloque Solar FV-01",
+        "zona": "Sector Norte A",
+        "potencia_mwp": 20.4,
+        "num_trackers": 340,
+        "num_modulos": 98,
+        "tipo_modulo": "Bifacial N-Type TOPCon 600Wp",
+        "tipo_tracker": "Seguidor Solar 1-Eje Monofila (1P)",
+        "inversor_id": "CT-01",
+        "area_ha": 108.12,
+        "avance_ponderado": 97.2,
+        "hincado_pct": 100,
+        "estructura_pct": 100,
+        "modulos_pct": 98,
+        "zanjeo_pct": 100,
+        "cableado_pct": 92,
+        "comisionamiento_pct": 85,
+        "estado": "Completado"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.0316,
+              11.6224
+            ],
+            [
+              -72.0194,
+              11.6224
+            ],
+            [
+              -72.0194,
+              11.6296
+            ],
+            [
+              -72.0316,
+              11.6296
+            ],
+            [
+              -72.0316,
+              11.6224
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FV-02",
+      "properties": {
+        "id": "FV-02",
+        "name": "Bloque Solar FV-02",
+        "zona": "Sector Norte B",
+        "potencia_mwp": 20.4,
+        "num_trackers": 340,
+        "num_modulos": 90,
+        "tipo_modulo": "Bifacial N-Type TOPCon 600Wp",
+        "tipo_tracker": "Seguidor Solar 1-Eje Monofila (1P)",
+        "inversor_id": "CT-02",
+        "area_ha": 108.12,
+        "avance_ponderado": 91.4,
+        "hincado_pct": 100,
+        "estructura_pct": 96,
+        "modulos_pct": 90,
+        "zanjeo_pct": 95,
+        "cableado_pct": 84,
+        "comisionamiento_pct": 70,
+        "estado": "En ejecución activa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.0186,
+              11.6224
+            ],
+            [
+              -72.0064,
+              11.6224
+            ],
+            [
+              -72.0064,
+              11.6296
+            ],
+            [
+              -72.0186,
+              11.6296
+            ],
+            [
+              -72.0186,
+              11.6224
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FV-03",
+      "properties": {
+        "id": "FV-03",
+        "name": "Bloque Solar FV-03",
+        "zona": "Sector Centro-Norte A",
+        "potencia_mwp": 20.4,
+        "num_trackers": 340,
+        "num_modulos": 85,
+        "tipo_modulo": "Bifacial N-Type TOPCon 600Wp",
+        "tipo_tracker": "Seguidor Solar 1-Eje Monofila (1P)",
+        "inversor_id": "CT-03",
+        "area_ha": 108.12,
+        "avance_ponderado": 86.8,
+        "hincado_pct": 100,
+        "estructura_pct": 92,
+        "modulos_pct": 85,
+        "zanjeo_pct": 90,
+        "cableado_pct": 75,
+        "comisionamiento_pct": 60,
+        "estado": "En ejecución activa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.0316,
+              11.6144
+            ],
+            [
+              -72.0194,
+              11.6144
+            ],
+            [
+              -72.0194,
+              11.6216
+            ],
+            [
+              -72.0316,
+              11.6216
+            ],
+            [
+              -72.0316,
+              11.6144
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FV-04",
+      "properties": {
+        "id": "FV-04",
+        "name": "Bloque Solar FV-04",
+        "zona": "Sector Centro-Norte B",
+        "potencia_mwp": 20.4,
+        "num_trackers": 340,
+        "num_modulos": 78,
+        "tipo_modulo": "Bifacial N-Type TOPCon 600Wp",
+        "tipo_tracker": "Seguidor Solar 1-Eje Monofila (1P)",
+        "inversor_id": "CT-04",
+        "area_ha": 108.12,
+        "avance_ponderado": 80.5,
+        "hincado_pct": 95,
+        "estructura_pct": 88,
+        "modulos_pct": 78,
+        "zanjeo_pct": 85,
+        "cableado_pct": 65,
+        "comisionamiento_pct": 50,
+        "estado": "En ejecución activa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.0186,
+              11.6144
+            ],
+            [
+              -72.0064,
+              11.6144
+            ],
+            [
+              -72.0064,
+              11.6216
+            ],
+            [
+              -72.0186,
+              11.6216
+            ],
+            [
+              -72.0186,
+              11.6144
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FV-05",
+      "properties": {
+        "id": "FV-05",
+        "name": "Bloque Solar FV-05",
+        "zona": "Sector Centro A",
+        "potencia_mwp": 20.4,
+        "num_trackers": 340,
+        "num_modulos": 68,
+        "tipo_modulo": "Bifacial N-Type TOPCon 600Wp",
+        "tipo_tracker": "Seguidor Solar 1-Eje Monofila (1P)",
+        "inversor_id": "CT-05",
+        "area_ha": 108.12,
+        "avance_ponderado": 71.5,
+        "hincado_pct": 90,
+        "estructura_pct": 80,
+        "modulos_pct": 68,
+        "zanjeo_pct": 75,
+        "cableado_pct": 55,
+        "comisionamiento_pct": 35,
+        "estado": "En ejecución activa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.0316,
+              11.6064
+            ],
+            [
+              -72.0194,
+              11.6064
+            ],
+            [
+              -72.0194,
+              11.6136
+            ],
+            [
+              -72.0316,
+              11.6136
+            ],
+            [
+              -72.0316,
+              11.6064
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FV-06",
+      "properties": {
+        "id": "FV-06",
+        "name": "Bloque Solar FV-06",
+        "zona": "Sector Centro B",
+        "potencia_mwp": 20.4,
+        "num_trackers": 340,
+        "num_modulos": 55,
+        "tipo_modulo": "Bifacial N-Type TOPCon 600Wp",
+        "tipo_tracker": "Seguidor Solar 1-Eje Monofila (1P)",
+        "inversor_id": "CT-06",
+        "area_ha": 108.12,
+        "avance_ponderado": 62.5,
+        "hincado_pct": 85,
+        "estructura_pct": 72,
+        "modulos_pct": 55,
+        "zanjeo_pct": 68,
+        "cableado_pct": 45,
+        "comisionamiento_pct": 25,
+        "estado": "En ejecución activa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.0186,
+              11.6064
+            ],
+            [
+              -72.0064,
+              11.6064
+            ],
+            [
+              -72.0064,
+              11.6136
+            ],
+            [
+              -72.0186,
+              11.6136
+            ],
+            [
+              -72.0186,
+              11.6064
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FV-07",
+      "properties": {
+        "id": "FV-07",
+        "name": "Bloque Solar FV-07",
+        "zona": "Sector Centro-Sur A",
+        "potencia_mwp": 20.4,
+        "num_trackers": 340,
+        "num_modulos": 40,
+        "tipo_modulo": "Bifacial N-Type TOPCon 600Wp",
+        "tipo_tracker": "Seguidor Solar 1-Eje Monofila (1P)",
+        "inversor_id": "CT-07",
+        "area_ha": 108.12,
+        "avance_ponderado": 50.0,
+        "hincado_pct": 75,
+        "estructura_pct": 60,
+        "modulos_pct": 40,
+        "zanjeo_pct": 55,
+        "cableado_pct": 30,
+        "comisionamiento_pct": 15,
+        "estado": "En ejecución activa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.0316,
+              11.5984
+            ],
+            [
+              -72.0194,
+              11.5984
+            ],
+            [
+              -72.0194,
+              11.6056
+            ],
+            [
+              -72.0316,
+              11.6056
+            ],
+            [
+              -72.0316,
+              11.5984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FV-08",
+      "properties": {
+        "id": "FV-08",
+        "name": "Bloque Solar FV-08",
+        "zona": "Sector Centro-Sur B",
+        "potencia_mwp": 20.4,
+        "num_trackers": 340,
+        "num_modulos": 25,
+        "tipo_modulo": "Bifacial N-Type TOPCon 600Wp",
+        "tipo_tracker": "Seguidor Solar 1-Eje Monofila (1P)",
+        "inversor_id": "CT-08",
+        "area_ha": 108.12,
+        "avance_ponderado": 37.3,
+        "hincado_pct": 65,
+        "estructura_pct": 45,
+        "modulos_pct": 25,
+        "zanjeo_pct": 40,
+        "cableado_pct": 18,
+        "comisionamiento_pct": 10,
+        "estado": "En ejecución activa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.0186,
+              11.5984
+            ],
+            [
+              -72.0064,
+              11.5984
+            ],
+            [
+              -72.0064,
+              11.6056
+            ],
+            [
+              -72.0186,
+              11.6056
+            ],
+            [
+              -72.0186,
+              11.5984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FV-09",
+      "properties": {
+        "id": "FV-09",
+        "name": "Bloque Solar FV-09",
+        "zona": "Sector Sur A",
+        "potencia_mwp": 18.0,
+        "num_trackers": 300,
+        "num_modulos": 10,
+        "tipo_modulo": "Bifacial N-Type TOPCon 600Wp",
+        "tipo_tracker": "Seguidor Solar 1-Eje Monofila (1P)",
+        "inversor_id": "CT-09",
+        "area_ha": 108.12,
+        "avance_ponderado": 23.5,
+        "hincado_pct": 50,
+        "estructura_pct": 30,
+        "modulos_pct": 10,
+        "zanjeo_pct": 25,
+        "cableado_pct": 10,
+        "comisionamiento_pct": 0,
+        "estado": "Iniciando obra"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.0316,
+              11.5904
+            ],
+            [
+              -72.0194,
+              11.5904
+            ],
+            [
+              -72.0194,
+              11.5976
+            ],
+            [
+              -72.0316,
+              11.5976
+            ],
+            [
+              -72.0316,
+              11.5904
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FV-10",
+      "properties": {
+        "id": "FV-10",
+        "name": "Bloque Solar FV-10",
+        "zona": "Sector Sur B",
+        "potencia_mwp": 18.0,
+        "num_trackers": 300,
+        "num_modulos": 5,
+        "tipo_modulo": "Bifacial N-Type TOPCon 600Wp",
+        "tipo_tracker": "Seguidor Solar 1-Eje Monofila (1P)",
+        "inversor_id": "CT-10",
+        "area_ha": 108.12,
+        "avance_ponderado": 16.6,
+        "hincado_pct": 40,
+        "estructura_pct": 20,
+        "modulos_pct": 5,
+        "zanjeo_pct": 18,
+        "cableado_pct": 5,
+        "comisionamiento_pct": 0,
+        "estado": "Iniciando obra"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.0186,
+              11.5904
+            ],
+            [
+              -72.0064,
+              11.5904
+            ],
+            [
+              -72.0064,
+              11.5976
+            ],
+            [
+              -72.0186,
+              11.5976
+            ],
+            [
+              -72.0186,
+              11.5904
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

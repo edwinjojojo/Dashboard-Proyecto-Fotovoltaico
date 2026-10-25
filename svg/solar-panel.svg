@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <circle cx="38" cy="10" r="6" fill="#f59e0b"/>
+  <path d="M38 2v3M38 15v3M30 10h3M43 10h3M32.5 4.5l2.2 2.2M41.3 13.3l2.2 2.2M32.5 15.5l2.2-2.2M41.3 6.7l2.2-2.2" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  <!-- Panel frame tilted -->
+  <polygon points="4,34 16,14 42,14 32,34" fill="#0284c7" stroke="#0f172a" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Grid lines -->
+  <line x1="10" y1="24" x2="37" y2="24" stroke="#ffffff" stroke-width="1.8" opacity="0.8"/>
+  <line x1="22" y1="14" x2="14" y2="34" stroke="#ffffff" stroke-width="1.8" opacity="0.8"/>
+  <line x1="32" y1="14" x2="23" y2="34" stroke="#ffffff" stroke-width="1.8" opacity="0.8"/>
+  <!-- Post / Mount -->
+  <line x1="19" y1="34" x2="19" y2="44" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <line x1="11" y1="44" x2="27" y2="44" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+</svg>

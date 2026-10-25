@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <rect x="4" y="24" width="40" height="20" rx="3" fill="#334155" stroke="#0f172a" stroke-width="2.5"/>
+  <!-- Bushings / insulators -->
+  <line x1="12" y1="12" x2="12" y2="24" stroke="#d97706" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="24" y1="8" x2="24" y2="24" stroke="#d97706" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="36" y1="12" x2="36" y2="24" stroke="#d97706" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Lightning flash on tank -->
+  <polygon points="26,27 21,35 25,35 22,41 29,33 25,33" fill="#eab308"/>
+</svg>

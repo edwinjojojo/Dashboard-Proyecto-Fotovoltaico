@@ -1,0 +1,204 @@
+{
+  "type": "FeatureCollection",
+  "name": "Obras_Drenaje_Ambientales",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "OD-01",
+      "properties": {
+        "name": "Alcantarilla tipo Cajón Alivio Norte",
+        "codigo": "OD-01",
+        "tipo_intervencion": "Obras de Drenaje Pluvial",
+        "especificacion": "Cajón Concreto 2.0x1.5m",
+        "cauce_zona": "Arroyo Intermitente Norte",
+        "avance_fisico_pct": 100,
+        "estado": "Construida con enrocado de protección",
+        "ficha_pma": "Ficha PMA-HID-02",
+        "coordenadas_texto": "11.628°, -72.0305° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0305,
+          11.628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "OD-02",
+      "properties": {
+        "name": "Vado Concreto Drenaje Central Bloque 3",
+        "codigo": "OD-02",
+        "tipo_intervencion": "Obras de Drenaje Pluvial",
+        "especificacion": "Vado disipador gavión",
+        "cauce_zona": "Canal de Escorrentía Central",
+        "avance_fisico_pct": 100,
+        "estado": "Operativa",
+        "ficha_pma": "Ficha PMA-HID-02",
+        "coordenadas_texto": "11.6185°, -72.022° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.022,
+          11.6185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "OD-03",
+      "properties": {
+        "name": "Canal Perimetral y Trampa de Sedimentos 1",
+        "codigo": "OD-03",
+        "tipo_intervencion": "Control de Erosión y Sedimentos",
+        "especificacion": "Desarenador y zanja de coronación",
+        "cauce_zona": "Drenaje Perimetral Oeste",
+        "avance_fisico_pct": 90,
+        "estado": "En conformación de talud y gavión",
+        "ficha_pma": "Ficha PMA-GEO-01",
+        "coordenadas_texto": "11.609°, -72.033° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.033,
+          11.609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "OD-04",
+      "properties": {
+        "name": "Paso de Agua y Alcantarilla Marco Bloque 7",
+        "codigo": "OD-04",
+        "tipo_intervencion": "Obras de Drenaje Pluvial",
+        "especificacion": "Tubería Novafort Ø36 pulg",
+        "cauce_zona": "Arroyo Sur A",
+        "avance_fisico_pct": 75,
+        "estado": "En instalación de aletas de entrada/salida",
+        "ficha_pma": "Ficha PMA-HID-02",
+        "coordenadas_texto": "11.601°, -72.0205° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0205,
+          11.601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "OD-05",
+      "properties": {
+        "name": "Trampa de Sedimentos y Disipador de Energía 2",
+        "codigo": "OD-05",
+        "tipo_intervencion": "Control de Erosión y Sedimentos",
+        "especificacion": "Dique de retención en gavión",
+        "cauce_zona": "Arroyo Sur B",
+        "avance_fisico_pct": 40,
+        "estado": "En excavación y armado de mallas",
+        "ficha_pma": "Ficha PMA-GEO-01",
+        "coordenadas_texto": "11.593°, -72.008° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.008,
+          11.593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VIV-01",
+      "properties": {
+        "name": "Vivero Temporal de Rescate de Flora y Cactáceas",
+        "codigo": "VIV-01",
+        "tipo_intervencion": "Gestión Biótica y Rescate de Flora",
+        "especificacion": "Vivero in situ sombrío 50%",
+        "cauce_zona": "N/A - Zona Campamento",
+        "avance_fisico_pct": 100,
+        "estado": "4.850 individuos de cactáceas y epífitas en aclimatación",
+        "ficha_pma": "Ficha PMA-BIO-01 Rescate Vegetal",
+        "coordenadas_texto": "11.615°, -72.006° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.006,
+          11.615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FAU-01",
+      "properties": {
+        "name": "Estación de Ahuyentamiento y Rescate de Fauna Norte",
+        "codigo": "FAU-01",
+        "tipo_intervencion": "Monitoreo y Ahuyentamiento de Fauna",
+        "especificacion": "Cuadrilla biótica móvil",
+        "cauce_zona": "Zona Bloques 1-2",
+        "avance_fisico_pct": 98,
+        "estado": "142 individuos de herpetofauna y micromamíferos reubicados",
+        "ficha_pma": "Ficha PMA-BIO-02 Fauna Silvestre",
+        "coordenadas_texto": "11.625°, -72.025° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.025,
+          11.625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FAU-02",
+      "properties": {
+        "name": "Punto de Liberación y Corredor Ecológico Sur",
+        "codigo": "FAU-02",
+        "tipo_intervencion": "Zona de Reserva y Liberación de Fauna",
+        "especificacion": "Área de amortiguamiento biótico",
+        "cauce_zona": "Corredor Bosque Seco Tropical",
+        "avance_fisico_pct": 100,
+        "estado": "Corredor activo sin intervención con cerramiento pasafauna",
+        "ficha_pma": "Ficha PMA-BIO-02",
+        "coordenadas_texto": "11.592°, -72.032° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.032,
+          11.592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "COMP-01",
+      "properties": {
+        "name": "Parcela de Compensación Forestal 1% Ley 99",
+        "codigo": "COMP-01",
+        "tipo_intervencion": "Compensación Ambiental y Reforestación",
+        "especificacion": "Restauración ecológica 45 ha",
+        "cauce_zona": "Ribera Arroyo Guajira",
+        "avance_fisico_pct": 65,
+        "estado": "12.500 plántulas nativas sembradas (Guayacán, Trupillo, Dividivi)",
+        "ficha_pma": "Ficha PMA-COMP-01",
+        "coordenadas_texto": "11.625°, -72.001° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.001,
+          11.625
+        ]
+      }
+    }
+  ]
+}

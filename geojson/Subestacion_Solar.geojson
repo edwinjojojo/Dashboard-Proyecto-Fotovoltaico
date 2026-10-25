@@ -1,0 +1,70 @@
+{
+  "type": "FeatureCollection",
+  "name": "Subestacion_Solar",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "SE_SOL_GUAJIRA",
+      "properties": {
+        "name": "Subestación Elevadora Guajira Solar 34.5 / 110 kV",
+        "codigo": "SE-GSOL-110",
+        "tipo": "Subestación Elevadora e Interconexión",
+        "tension_primaria": "34.5 kV (Media Tensión Colectora)",
+        "tension_secundaria": "110 kV (Alta Tensión Evacuación)",
+        "potencia_transformacion": "160/200 MVA ONAN/ONAF",
+        "bahias": "1 Bahía Transformador, 1 Bahía Línea 110kV, 1 Bahía Seccionamiento",
+        "celdas_mt": "12 Celdas 34.5 kV GIS libres de SF6",
+        "bess_capacidad": "Sistema BESS 20 MW / 40 MWh (Regulación de frecuencia)",
+        "edificio_control": "Edificio SCADA, Protecciones IEC 61850 y Fibra Óptica",
+        "avance_obra_civil": "92 %",
+        "avance_electromecanico": "78 %",
+        "avance_comisionamiento": "45 %",
+        "avance_general": "74.5 %",
+        "estado": "Montaje electromecánico de transformador principal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.005,
+              11.6085
+            ],
+            [
+              -72.0028,
+              11.6085
+            ],
+            [
+              -72.0028,
+              11.6115
+            ],
+            [
+              -72.005,
+              11.6115
+            ],
+            [
+              -72.005,
+              11.6085
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SE_PUNTO_CENTRAL",
+      "properties": {
+        "name": "Pórtico y Transformador Principal SE Guajira Solar",
+        "tipo": "Transformador de Potencia 160 MVA",
+        "coordenadas_texto": "11.61°, -72.004° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.004,
+          11.61
+        ]
+      }
+    }
+  ]
+}

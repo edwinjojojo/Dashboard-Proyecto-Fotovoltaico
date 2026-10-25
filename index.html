@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visor & Dashboard Proyecto Solar Fotovoltaico vr 1.0</title>
+  <meta name="description" content="Dashboard geoespacial de seguimiento integral para el Parque Solar Fotovoltaico Sol de La Guajira (200 MWp): Avance de Obra, Subestación, Gestión Ambiental y Entorno Social.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Leaflet 1.9.4 vendored locally (offline-safe). Fonts stay on CDN with system-ui fallback in --font-body. -->
+  <script type="module" crossorigin src="/Dashboard-Proyecto-Fotovoltaico/assets/index-BngilAQT.js"></script>
+  <link rel="stylesheet" crossorigin href="/Dashboard-Proyecto-Fotovoltaico/assets/index-CNbt-dgm.css">
+</head>
+<body>
+  <div class="app">
+    <div class="status-banners" id="status-banners" aria-live="polite">
+      <div id="demo-banner" class="status-banner demo-banner is-visible" role="status">
+        <span>📢 Datos de demostración — toda la información de este tablero es ficticia (PoC / dummy). No representa una obra real.</span>
+      </div>
+      <div id="file-protocol-banner" class="status-banner file-protocol-banner" role="alert">
+        <span>⚠️ Estás abriendo el archivo por <code>file://</code>. Los <code>fetch</code> de GeoJSON fallarán. Sirve la carpeta con <code>python3 -m http.server 8000</code> y abre <code>http://localhost:8000</code>.</span>
+      </div>
+      <div id="schema-warnings-banner" class="status-banner schema-warnings-banner" role="status">
+        <div>
+          <strong>Avisos de schema (datos):</strong>
+          <ul id="schema-warnings-list"></ul>
+        </div>
+        <button type="button" class="banner-dismiss" id="schema-warnings-dismiss" aria-label="Cerrar">✕</button>
+      </div>
+      <div id="layer-errors-banner" class="status-banner layer-errors-banner" role="alert">
+        <div>
+          <strong>Algunas capas no cargaron</strong> (el resto del mapa sigue disponible):
+          <ul id="layer-errors-list"></ul>
+        </div>
+        <button type="button" class="banner-dismiss" id="layer-errors-dismiss" aria-label="Cerrar">✕</button>
+      </div>
+    </div>
+
+    <!-- TOPBAR -->
+    <header class="topbar">
+      <div class="brand">
+        <button id="mobile-menu-btn" class="mobile-hamburger" type="button" aria-label="Abrir menú">☰</button>
+        <div class="brand-icon-box">
+          <!-- Solar SVG icon -->
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="brand-titles">
+          <h1>
+            <span>Visor & Dashboard Proyecto Solar Fotovoltaico</span>
+            <span class="brand-tag">200 MWp</span>
+          </h1>
+          <div class="subtitle">Parque Solar Sol de La Guajira · Seguimiento Técnico, Ambiental y Comunitario</div>
+        </div>
+      </div>
+
+
+      <!-- Compact KPI chips (mobile) -->
+      <div class="mobile-kpi-chips" aria-label="KPIs compactos">
+        <span class="mchip"><span class="mchip-lbl">GHI</span> <strong id="kpi-chip-ghi">—</strong></span>
+        <span class="mchip"><span class="mchip-lbl">Avance</span> <strong id="kpi-chip-avance">—</strong></span>
+        <span class="mchip"><span class="mchip-lbl">CO₂</span> <strong id="kpi-chip-co2">—</strong></span>
+      </div>
+
+      <!-- METEO & KPI WIDGETS (valores rellenados desde GeoJSON en loadData) -->
+      <div class="top-widgets">
+        <div class="meteo-pill">
+          <div class="meteo-item">
+            <span class="meteo-label">☀️ Radiación GHI</span>
+            <span class="meteo-val highlight" id="kpi-top-ghi">—</span>
+          </div>
+          <div class="meteo-divider"></div>
+          <div class="meteo-item">
+            <span class="meteo-label">🌡️ Temp. Módulo</span>
+            <span class="meteo-val" id="kpi-top-temp">—</span>
+          </div>
+          <div class="meteo-divider"></div>
+          <div class="meteo-item">
+            <span class="meteo-label">🌱 CO₂ Mitigado</span>
+            <span class="meteo-val" id="kpi-top-co2" style="color: #34d399;">—</span>
+          </div>
+          <div class="meteo-divider"></div>
+          <div class="meteo-item">
+            <span class="meteo-label">📊 Avance Global</span>
+            <span class="meteo-val" id="kpi-top-avance" style="color: var(--solar-gold);">—</span>
+          </div>
+        </div>
+
+        <div class="top-actions">
+          <button id="btn-focus-park" class="btn-top" type="button" title="Centrar en el Parque Solar">
+            <span>🗺️</span> <span>Parque Solar</span>
+          </button>
+          <button id="btn-focus-all" class="btn-top" type="button" title="Ver todo el territorio">
+            <span>🔍</span> <span>Ver Todo</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- BARRA DE PROGRAMACIÓN SEMANAL -->
+    <nav class="day-nav" aria-label="Navegación temporal de obra">
+      <div class="week-picker">
+        <label class="week-picker-label" for="week-select">Semana de Operación & Montaje</label>
+        <select id="week-select" class="week-select">
+          <option>Cargando semanas...</option>
+        </select>
+      </div>
+
+      <div class="day-buttons">
+        <button class="day-button" type="button" data-day="monday"><span class="day-name">Lunes</span> <span class="day-date"></span></button>
+        <button class="day-button" type="button" data-day="tuesday"><span class="day-name">Martes</span> <span class="day-date"></span></button>
+        <button class="day-button" type="button" data-day="wednesday"><span class="day-name">Miércoles</span> <span class="day-date"></span></button>
+        <button class="day-button" type="button" data-day="thursday"><span class="day-name">Jueves</span> <span class="day-date"></span></button>
+        <button class="day-button" type="button" data-day="friday"><span class="day-name">Viernes</span> <span class="day-date"></span></button>
+        <button class="day-button" type="button" data-day="week-summary">Resumen <span class="day-date">Semanal</span></button>
+      </div>
+
+      <div class="day-nav-actions">
+        <div id="day-feedback" class="day-feedback">Selecciona una jornada para sincronizar el mapa</div>
+        <button id="btn-export-day-csv" class="btn-export-csv" type="button" title="Exportar día activo a CSV">⬇ CSV día</button>
+      </div>
+    </nav>
+
+    <!-- WORKSPACE -->
+    <main class="workspace">
+      <!-- SIDEBAR -->
+      <div id="sidebar-backdrop" class="sidebar-backdrop" hidden></div>
+      <aside class="sidebar" id="app-sidebar">
+        <div class="sidebar-drawer-head">
+          <span class="sidebar-drawer-title">Panel de obra</span>
+          <button type="button" id="sidebar-close-btn" class="sidebar-close-btn" aria-label="Cerrar panel">✕</button>
+        </div>
+        <!-- PESTAÑAS DEL PANEL LATERAL -->
+        <nav class="sidebar-tabs" role="tablist">
+          <button id="tab-btn-schedule" class="sidebar-tab-btn is-active" type="button" data-tab="schedule">
+            <span class="sidebar-tab-icon">📋</span>
+            <span class="sidebar-tab-label">Cronograma</span>
+          </button>
+          <button id="tab-btn-blocks" class="sidebar-tab-btn" type="button" data-tab="blocks">
+            <span class="sidebar-tab-icon">☀️</span>
+            <span class="sidebar-tab-label">Bloques FV</span>
+          </button>
+          <button id="tab-btn-substation" class="sidebar-tab-btn" type="button" data-tab="substation">
+            <span class="sidebar-tab-icon">⚡</span>
+            <span class="sidebar-tab-label">Subestación</span>
+          </button>
+          <button id="tab-btn-ambient" class="sidebar-tab-btn" type="button" data-tab="ambient">
+            <span class="sidebar-tab-icon">🌿</span>
+            <span class="sidebar-tab-label">Ambiental</span>
+          </button>
+          <button id="tab-btn-entorno" class="sidebar-tab-btn" type="button" data-tab="entorno">
+            <span class="sidebar-tab-icon">👥</span>
+            <span class="sidebar-tab-label">Entorno</span>
+          </button>
+        </nav>
+
+        <!-- PANEL 1: PROGRAMACIÓN DE OBRA -->
+        <div id="panel-schedule" class="panel-view">
+          <header class="panel-header">
+            <div class="panel-eyebrow">FRENTES OPERATIVOS EN CAMPO</div>
+            <h2 id="activity-day-title" class="panel-title">Selecciona un día</h2>
+            <div id="activity-day-meta" class="panel-subtitle">Cuadrillas activas en hincado, montaje y cableado</div>
+          </header>
+          <div id="activity-list-container" class="panel-body-scroll">
+            <div class="activity-list" id="activity-items-list">
+              <!-- Renderizado dinámico -->
+            </div>
+          </div>
+        </div>
+
+        <!-- PANEL 2: AVANCE BLOQUES SOLARES -->
+        <div id="panel-blocks" class="panel-view" style="display: none;">
+          <header class="panel-header">
+            <div class="panel-header-top">
+              <div>
+                <span id="blocks-scope-badge" class="panel-badge">Consolidado 200 MWp</span>
+                <h2 id="blocks-scope-title" class="panel-title">Todo el Parque Solar</h2>
+              </div>
+              <button id="blocks-reset-btn" class="panel-reset-btn" type="button" style="display: none;">
+                ↺ Ver Todo
+              </button>
+            </div>
+            <div id="blocks-scope-subtitle" class="panel-subtitle">10 Bloques Fotovoltaicos · 328.000 Módulos Bifaciales</div>
+          </header>
+          <div class="panel-body-scroll">
+            <div>
+              <label for="block-quick-select" style="font-size: 10px; font-weight: 700; color: var(--solar-muted); text-transform: uppercase;">Seleccionar Bloque Específico:</label>
+              <select id="block-quick-select" class="filter-selector" style="margin-top: 4px;">
+                <option value="ALL">Todo el Parque (Consolidado 10 Bloques)</option>
+              </select>
+            </div>
+
+            <!-- KPI Cards Bloques -->
+            <div class="kpi-grid">
+              <div class="kpi-card kpi-card-main is-full">
+                <div class="kpi-title">Avance Ponderado Global</div>
+                <div class="kpi-value" id="kpi-block-ponderado">—</div>
+                <div class="kpi-caption" id="kpi-block-caption">10 Bloques FV · 196.8 MWp en Construcción</div>
+                <div class="progress-bar-bg" style="background: rgba(255,255,255,0.2);">
+                  <div class="progress-bar-fill" id="bar-block-ponderado" style="width: 0%; background: var(--solar-gold);"></div>
+                </div>
+              </div>
+
+              <!-- Hincado -->
+              <div class="kpi-card">
+                <div class="kpi-title">Hincado Pilotes</div>
+                <div class="kpi-value" id="kpi-val-hincado">80.0 %</div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" id="bar-val-hincado" style="width: 80.0%;"></div>
+                </div>
+                <div class="kpi-caption" style="margin-top: 4px;">39.360 / 49.200 perfiles</div>
+              </div>
+
+              <!-- Estructura Trackers -->
+              <div class="kpi-card">
+                <div class="kpi-title">Estructura Trackers</div>
+                <div class="kpi-value" id="kpi-val-estructura">68.0 %</div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" id="bar-val-estructura" style="width: 68.0%;"></div>
+                </div>
+                <div class="kpi-caption" style="margin-top: 4px;">2.230 / 3.280 seguidores 1P</div>
+              </div>
+
+              <!-- Módulos Bifaciales -->
+              <div class="kpi-card">
+                <div class="kpi-title">Módulos Solares</div>
+                <div class="kpi-value" id="kpi-val-modulos">55.4 %</div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill green" id="bar-val-modulos" style="width: 55.4%;"></div>
+                </div>
+                <div class="kpi-caption" style="margin-top: 4px;">181.700 / 328.000 paneles</div>
+              </div>
+
+              <!-- Zanjeo -->
+              <div class="kpi-card">
+                <div class="kpi-title">Zanjeo & Ductería</div>
+                <div class="kpi-value" id="kpi-val-zanjeo">70.1 %</div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" id="bar-val-zanjeo" style="width: 70.1%;"></div>
+                </div>
+                <div class="kpi-caption" style="margin-top: 4px;">84.1 km de zanjas BT/MT</div>
+              </div>
+
+              <!-- Cableado DC/MT -->
+              <div class="kpi-card">
+                <div class="kpi-title">Cableado Strings</div>
+                <div class="kpi-value" id="kpi-val-cableado">49.4 %</div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill blue" id="bar-val-cableado" style="width: 49.4%;"></div>
+                </div>
+                <div class="kpi-caption" style="margin-top: 4px;">7.110 cadenas conectadas</div>
+              </div>
+
+              <!-- Comisionamiento -->
+              <div class="kpi-card">
+                <div class="kpi-title">Comisionamiento</div>
+                <div class="kpi-value" id="kpi-val-comision">34.0 %</div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" id="bar-val-comision" style="width: 34.0%;"></div>
+                </div>
+                <div class="kpi-caption" style="margin-top: 4px;">Pruebas I-V y energización</div>
+              </div>
+            </div>
+
+            <!-- Ficha Técnica Bloque Activo -->
+            <div class="dossier-box" id="block-dossier-box">
+              <div style="font-size: 11px; font-weight: 800; color: var(--solar-dark); margin-bottom: 6px;">DATOS TÉCNICOS DEL BLOQUE</div>
+              <div class="dossier-row">
+                <span class="dossier-lbl">Potencia Pico:</span>
+                <span class="dossier-val" id="dossier-mwp">196.8 MWp Total</span>
+              </div>
+              <div class="dossier-row">
+                <span class="dossier-lbl">Centro Inversor / Skid:</span>
+                <span class="dossier-val" id="dossier-inversor">10 Centros CT-01 a CT-10</span>
+              </div>
+              <div class="dossier-row">
+                <span class="dossier-lbl">Tecnología Módulo:</span>
+                <span class="dossier-val">Bifacial N-Type TOPCon 600Wp</span>
+              </div>
+              <div class="dossier-row">
+                <span class="dossier-lbl">Seguidores:</span>
+                <span class="dossier-val">Monofila 1P Tracker (±60°)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PANEL 3: SUBESTACIÓN & LÍNEA 110 KV -->
+        <div id="panel-substation" class="panel-view" style="display: none;">
+          <header class="panel-header">
+            <div class="panel-eyebrow">EVACUACIÓN ELÉCTRICA DE ALTA TENSIÓN</div>
+            <h2 class="panel-title">SE Guajira Solar & LAT 110 kV</h2>
+            <div class="panel-subtitle">Subestación 34.5/110 kV · 18 Torres de Transmisión (8.75 km)</div>
+          </header>
+          <div class="panel-body-scroll">
+            <!-- SE Guajira Solar -->
+            <div class="kpi-card kpi-card-main">
+              <div class="kpi-title">Subestación Elevadora 34.5/110 kV</div>
+              <div class="kpi-value">74.5 %</div>
+              <div class="kpi-caption">Transformador 160 MVA · Celdas GIS libres de SF6</div>
+              <div class="progress-bar-bg" style="background: rgba(255,255,255,0.2);">
+                <div class="progress-bar-fill" style="width: 74.5%; background: var(--solar-gold);"></div>
+              </div>
+            </div>
+
+            <div class="kpi-grid">
+              <div class="kpi-card">
+                <div class="kpi-title">Obra Civil SE</div>
+                <div class="kpi-value">92.0 %</div>
+                <div class="progress-bar-bg"><div class="progress-bar-fill green" style="width: 92%;"></div></div>
+              </div>
+              <div class="kpi-card">
+                <div class="kpi-title">Electromecánico</div>
+                <div class="kpi-value">78.0 %</div>
+                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 78%;"></div></div>
+              </div>
+              <div class="kpi-card">
+                <div class="kpi-title">Celdas GIS MT</div>
+                <div class="kpi-value">85.0 %</div>
+                <div class="progress-bar-bg"><div class="progress-bar-fill green" style="width: 85%;"></div></div>
+              </div>
+              <div class="kpi-card">
+                <div class="kpi-title">Sistema BESS (Baterías)</div>
+                <div class="kpi-value">40.0 %</div>
+                <div class="progress-bar-bg"><div class="progress-bar-fill blue" style="width: 40%;"></div></div>
+              </div>
+            </div>
+
+            <!-- Selector de Torre -->
+            <div style="margin-top: 8px;">
+              <label for="tower-select" style="font-size: 10px; font-weight: 700; color: var(--solar-muted); text-transform: uppercase;">Seleccionar Estructura LAT 110 kV:</label>
+              <select id="tower-select" class="filter-selector" style="margin-top: 4px;">
+                <option value="ALL">Consolidado Línea (18 Torres / Postes)</option>
+              </select>
+            </div>
+
+            <!-- KPI Línea -->
+            <div class="kpi-grid" id="tower-kpis-container">
+              <div class="kpi-card">
+                <div class="kpi-title">Cimentación Torres</div>
+                <div class="kpi-value" id="kpi-lat-ciment">68.0 %</div>
+                <div class="progress-bar-bg"><div class="progress-bar-fill" id="bar-lat-ciment" style="width: 68%;"></div></div>
+              </div>
+              <div class="kpi-card">
+                <div class="kpi-title">Izaje Estructuras</div>
+                <div class="kpi-value" id="kpi-lat-izaje">55.0 %</div>
+                <div class="progress-bar-bg"><div class="progress-bar-fill" id="bar-lat-izaje" style="width: 55%;"></div></div>
+              </div>
+              <div class="kpi-card is-full">
+                <div class="kpi-title">Tendido de Conductor ACSR + OPGW</div>
+                <div class="kpi-value" id="kpi-lat-tendido">42.0 %</div>
+                <div class="progress-bar-bg"><div class="progress-bar-fill blue" id="bar-lat-tendido" style="width: 42%;"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PANEL 4: GESTIÓN AMBIENTAL & BIÓTICA -->
+        <div id="panel-ambient" class="panel-view" style="display: none;">
+          <header class="panel-header">
+            <div class="panel-eyebrow">CUMPLIMIENTO PMA & BIODIVERSIDAD</div>
+            <h2 class="panel-title">Gestión Ambiental & Biótica</h2>
+            <div class="panel-subtitle">Resolución ANLA 01842 · Rescate de Fauna, Flora y Drenajes</div>
+          </header>
+          <div class="panel-body-scroll">
+            <div class="kpi-card kpi-card-main">
+              <div class="kpi-title">Cumplimiento General PMA</div>
+              <div class="kpi-value" style="color: #34d399;">94.6 %</div>
+              <div class="kpi-caption">Obligaciones ambientales al día ante la ANLA</div>
+              <div class="progress-bar-bg" style="background: rgba(255,255,255,0.2);">
+                <div class="progress-bar-fill" style="width: 94.6%; background: #34d399;"></div>
+              </div>
+            </div>
+
+            <div class="kpi-grid">
+              <div class="kpi-card">
+                <div class="kpi-title">Fauna Rescatada</div>
+                <div class="kpi-value" style="color: var(--eco-green);">142</div>
+                <div class="kpi-caption">Individuos reubicados</div>
+              </div>
+              <div class="kpi-card">
+                <div class="kpi-title">Vivero Flora</div>
+                <div class="kpi-value" style="color: var(--solar-orange);">4.850</div>
+                <div class="kpi-caption">Cactáceas en custodia</div>
+              </div>
+              <div class="kpi-card">
+                <div class="kpi-title">Obras de Drenaje</div>
+                <div class="kpi-value" style="color: var(--solar-blue);">8</div>
+                <div class="kpi-caption">Puntos de cauce y alivio</div>
+              </div>
+              <div class="kpi-card">
+                <div class="kpi-title">Compensación 1%</div>
+                <div class="kpi-value" style="color: var(--eco-green);">12.500</div>
+                <div class="kpi-caption">Árboles nativos sembrados</div>
+              </div>
+            </div>
+
+            <!-- Selector de Obra Ambiental -->
+            <div>
+              <label for="ambient-select" style="font-size: 10px; font-weight: 700; color: var(--solar-muted); text-transform: uppercase;">Inspeccionar Punto Ambiental:</label>
+              <select id="ambient-select" class="filter-selector" style="margin-top: 4px;">
+                <option value="ALL">Todos los puntos ambientales (9 intervenciones)</option>
+              </select>
+            </div>
+
+            <!-- Ficha Detallada Ambiental -->
+            <div class="dossier-box" id="ambient-dossier-box">
+              <div style="font-size: 11px; font-weight: 800; color: var(--solar-dark); margin-bottom: 6px;">COMPONENTE DE SOSTENIBILIDAD</div>
+              <div class="dossier-row">
+                <span class="dossier-lbl">Generación Limpia Estimada:</span>
+                <span class="dossier-val">415 GWh / año</span>
+              </div>
+              <div class="dossier-row">
+                <span class="dossier-lbl">CO₂ Evitado Anualmente:</span>
+                <span class="dossier-val" style="color: var(--eco-green);">186.750 Toneladas</span>
+              </div>
+              <div class="dossier-row">
+                <span class="dossier-lbl">Equivalencia Hogares:</span>
+                <span class="dossier-val">210.000 hogares</span>
+              </div>
+              <div class="dossier-row">
+                <span class="dossier-lbl">Consumo Hídrico Paneles:</span>
+                <span class="dossier-val">Tecnología de limpieza en seco</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PANEL 5: ENTORNO SOCIAL & COMUNIDADES -->
+        <div id="panel-entorno" class="panel-view" style="display: none;">
+          <header class="panel-header">
+            <div class="panel-eyebrow">RELACIONAMIENTO & CONSULTA PREVIA</div>
+            <h2 class="panel-title">Entorno Social & Comunidades</h2>
+            <div class="panel-subtitle">122 Asentamientos · Gestión Social y Empleo Local</div>
+          </header>
+          <div class="panel-body-scroll">
+            <!-- Semáforo Social Interactivo -->
+            <div>
+              <div style="font-size: 10px; font-weight: 700; color: var(--solar-muted); text-transform: uppercase; margin-bottom: 4px;">FILTRO ESPACIAL DE RELACIONAMIENTO:</div>
+              <div class="social-kpi-row">
+                <div class="social-kpi-card total is-active" data-semaforo="ALL" title="Ver todas las comunidades">
+                  <div class="social-kpi-val" id="soc-count-total">122</div>
+                  <div class="social-kpi-lbl">Total</div>
+                </div>
+                <div class="social-kpi-card verde" data-semaforo="Verde" title="Filtrar favorables / diálogo fluido">
+                  <div class="social-kpi-val" id="soc-count-verde">75</div>
+                  <div class="social-kpi-lbl">🟢 Verde</div>
+                </div>
+                <div class="social-kpi-card amarillo" data-semaforo="Amarillo" title="Filtrar en concertación">
+                  <div class="social-kpi-val" id="soc-count-amarillo">35</div>
+                  <div class="social-kpi-lbl">🟡 Atenc.</div>
+                </div>
+                <div class="social-kpi-card rojo" data-semaforo="Rojo" title="Filtrar alertas prioritarias">
+                  <div class="social-kpi-val" id="soc-count-rojo">12</div>
+                  <div class="social-kpi-lbl">🔴 Alerta</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Selector de Comunidad -->
+            <div style="margin-top: 4px;">
+              <label for="community-select" style="font-size: 10px; font-weight: 700; color: var(--solar-muted); text-transform: uppercase;">Buscar o Elegir Comunidad:</label>
+              <select id="community-select" class="filter-selector" style="margin-top: 4px;">
+                <option value="">Selecciona una comunidad...</option>
+              </select>
+            </div>
+
+            <!-- Ficha Técnica Comunitaria -->
+            <div class="dossier-box" id="community-dossier-box">
+              <div style="font-size: 12px; font-weight: 800; color: var(--solar-dark); margin-bottom: 6px;" id="dossier-com-title">
+                Selecciona una comunidad
+              </div>
+              <div class="dossier-row">
+                <span class="dossier-lbl">Semáforo Social:</span>
+                <span class="dossier-val" id="dossier-com-sem">-</span>
+              </div>
+              <div class="dossier-row">
+                <span class="dossier-lbl">Tipo de Influencia:</span>
+                <span class="dossier-val" id="dossier-com-infl">-</span>
+              </div>
+              <div class="dossier-row">
+                <span class="dossier-lbl">Distancia al Parque Solar:</span>
+                <span class="dossier-val" id="dossier-com-dist">-</span>
+              </div>
+              <div class="dossier-row">
+                <span class="dossier-lbl">Mano de Obra Local Activa:</span>
+                <span class="dossier-val" id="dossier-com-empleo" style="color: var(--solar-orange);">-</span>
+              </div>
+              <div class="dossier-row">
+                <span class="dossier-lbl">Estado Consulta:</span>
+                <span class="dossier-val" id="dossier-com-consulta" style="font-size: 10px;">-</span>
+              </div>
+              <div style="margin-top: 8px;">
+                <span class="dossier-lbl" style="font-size: 10px; text-transform: uppercase; font-weight: 800;">Convenio de Inversión Social Solar:</span>
+                <div id="dossier-com-convenio" style="font-size: 11px; color: var(--solar-slate); margin-top: 2px; font-weight: 500; background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0;">
+                  -
+                </div>
+              </div>
+              <div style="margin-top: 8px;">
+                <span class="dossier-lbl" style="font-size: 10px; text-transform: uppercase; font-weight: 800;">Última Bitácora y Observaciones:</span>
+                <div id="dossier-com-bitacora" style="font-size: 10.5px; color: var(--solar-muted); margin-top: 2px; line-height: 1.35;">
+                  Haz clic en cualquier comunidad en el mapa o en el selector superior.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- MAPA CARTOGRÁFICO -->
+      <section class="map-container" aria-label="Visor geoespacial interactivo">
+        <div id="map"></div>
+
+        <!-- CONTROL DE CAPAS FLOTANTE -->
+        <div class="map-floating-panel">
+          <div class="map-floating-title">
+            <span>🗺️</span> <span>Capas del Parque Solar</span>
+          </div>
+          <div class="layer-control-list">
+            <label class="layer-item">
+              <input type="checkbox" id="layer-chk-bloques" checked>
+              <span class="layer-icon-bullet" style="background: var(--solar-amber);"></span>
+              <span>Bloques Solares (10)</span>
+            </label>
+            <label class="layer-item">
+              <input type="checkbox" id="layer-chk-area" checked>
+              <span class="layer-icon-bullet" style="background: #38bdf8;"></span>
+              <span>Polígono del Parque</span>
+            </label>
+            <label class="layer-item">
+              <input type="checkbox" id="layer-chk-inversores" checked>
+              <span class="layer-icon-bullet" style="background: #0d9488;"></span>
+              <span>Inversores / Skids CT</span>
+            </label>
+            <label class="layer-item">
+              <input type="checkbox" id="layer-chk-subestacion" checked>
+              <span class="layer-icon-bullet" style="background: #eab308;"></span>
+              <span>Subestación 110 kV</span>
+            </label>
+            <label class="layer-item">
+              <input type="checkbox" id="layer-chk-linea" checked>
+              <span class="layer-icon-bullet" style="background: #64748b;"></span>
+              <span>Línea Evacuación LAT</span>
+            </label>
+            <label class="layer-item">
+              <input type="checkbox" id="layer-chk-meteo" checked>
+              <span class="layer-icon-bullet" style="background: #fbbf24;"></span>
+              <span>Estación Solarimetría</span>
+            </label>
+            <label class="layer-item">
+              <input type="checkbox" id="layer-chk-ambientales" checked>
+              <span class="layer-icon-bullet" style="background: var(--eco-green);"></span>
+              <span>Gestión Ambiental / Cauces</span>
+            </label>
+            <label class="layer-item" title="Cluster MarkerCluster; se muestran individuales desde zoom ≥ 13">
+              <input type="checkbox" id="layer-chk-comunidades" checked>
+              <span class="layer-icon-bullet" style="background: #d97706;"></span>
+              <span>Comunidades (cluster)</span>
+            </label>
+            <label class="layer-item" title="Capa opcional ~2.9 MB: se descarga solo al activar">
+              <input type="checkbox" id="layer-chk-municipios">
+              <span class="layer-icon-bullet" style="background: #94a3b8;"></span>
+              <span>Municipios (lazy ~2.9 MB)</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- ACCIONES RÁPIDAS DEL MAPA -->
+        <div class="map-quick-bar">
+          <button class="map-quick-btn" id="qbtn-park" type="button">☀️ Parque</button>
+          <button class="map-quick-btn" id="qbtn-sub" type="button">⚡ Subestación</button>
+          <button class="map-quick-btn" id="qbtn-line" type="button">🗼 Línea LAT</button>
+          <button class="map-quick-btn" id="qbtn-env" type="button">🌿 Ambiental</button>
+          <button class="map-quick-btn" id="qbtn-all" type="button">🌎 Extensión Total</button>
+        </div>
+      </section>
+    </main>
+  </div>
+  <!-- Leaflet stays vendored (offline-capable); app is an ES module via Vite. -->
+  <script src="vendor/leaflet@1.9.4/leaflet.js"></script>
+  <script src="vendor/leaflet.markercluster@1.5.3/leaflet.markercluster.js"></script>
+</body>
+</html>

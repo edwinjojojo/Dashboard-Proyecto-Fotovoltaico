@@ -1,0 +1,3300 @@
+{
+  "type": "FeatureCollection",
+  "name": "Comunidades",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ID_00000",
+      "properties": {
+        "name": "Maashumana Wane",
+        "Name": "Maashumana Wane",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 2.87,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 6,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-09",
+        "Observaciones_Bitacora": "Comunidad Maashumana Wane: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.584109,
+        "Longitud": -72.021311,
+        "coordenadas_texto": "11.584109°, -72.021311° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.021311,
+          11.584109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00001",
+      "properties": {
+        "name": "Jamucherra",
+        "Name": "Jamucherra",
+        "Semaforo": "Rojo",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 3.74,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 11,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "Reunión de diálogo requerida / Alerta comunitaria",
+        "Ultima_Visita": "2026-09-21",
+        "Observaciones_Bitacora": "Comunidad Jamucherra: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.640128,
+        "Longitud": -72.003431,
+        "coordenadas_texto": "11.640128°, -72.003431° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.003431,
+          11.640128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00002",
+      "properties": {
+        "name": "Cañaveral",
+        "Name": "Cañaveral",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 1.97,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 16,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-01",
+        "Observaciones_Bitacora": "Comunidad Cañaveral: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.601182,
+        "Longitud": -72.034687,
+        "coordenadas_texto": "11.601182°, -72.034687° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.034687,
+          11.601182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00003",
+      "properties": {
+        "name": "Mashuamana",
+        "Name": "Mashuamana",
+        "Semaforo": "Rojo",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 2.84,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 17,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "Reunión de diálogo requerida / Alerta comunitaria",
+        "Ultima_Visita": "2026-09-21",
+        "Observaciones_Bitacora": "Comunidad Mashuamana: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.58561,
+        "Longitud": -72.010723,
+        "coordenadas_texto": "11.58561°, -72.010723° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.010723,
+          11.58561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00004",
+      "properties": {
+        "name": "Jaika Kalinchon",
+        "Name": "Jaika Kalinchon",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 3.82,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 6,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-03",
+        "Observaciones_Bitacora": "Comunidad Jaika Kalinchon: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.644269,
+        "Longitud": -72.023226,
+        "coordenadas_texto": "11.644269°, -72.023226° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.023226,
+          11.644269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00005",
+      "properties": {
+        "name": "Paliyawain",
+        "Name": "Paliyawain",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 3.46,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 16,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-26",
+        "Observaciones_Bitacora": "Comunidad Paliyawain: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.628371,
+        "Longitud": -71.993364,
+        "coordenadas_texto": "11.628371°, -71.993364° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.993364,
+          11.628371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00006",
+      "properties": {
+        "name": "Matajuna",
+        "Name": "Matajuna",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 6.28,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-02",
+        "Observaciones_Bitacora": "Comunidad Matajuna: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.644624,
+        "Longitud": -71.973294,
+        "coordenadas_texto": "11.644624°, -71.973294° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.973294,
+          11.644624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00007",
+      "properties": {
+        "name": "Patajatamana",
+        "Name": "Patajatamana",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 2.35,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 10,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-26",
+        "Observaciones_Bitacora": "Comunidad Patajatamana: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.615717,
+        "Longitud": -71.998278,
+        "coordenadas_texto": "11.615717°, -71.998278° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.998278,
+          11.615717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00008",
+      "properties": {
+        "name": "Kalinchon",
+        "Name": "Kalinchon",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 0.69,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 13,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-08",
+        "Observaciones_Bitacora": "Comunidad Kalinchon: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.613603,
+        "Longitud": -72.024182,
+        "coordenadas_texto": "11.613603°, -72.024182° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.024182,
+          11.613603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00009",
+      "properties": {
+        "name": "Romana",
+        "Name": "Romana",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 7.04,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-24",
+        "Observaciones_Bitacora": "Comunidad Romana: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.557787,
+        "Longitud": -72.05601,
+        "coordenadas_texto": "11.557787°, -72.05601° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.05601,
+          11.557787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00010",
+      "properties": {
+        "name": "Wimpeshi",
+        "Name": "Wimpeshi",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 6.47,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-01",
+        "Observaciones_Bitacora": "Comunidad Wimpeshi: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.553504,
+        "Longitud": -72.034528,
+        "coordenadas_texto": "11.553504°, -72.034528° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.034528,
+          11.553504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00011",
+      "properties": {
+        "name": "Kamushipa",
+        "Name": "Kamushipa",
+        "Semaforo": "Rojo",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 4.98,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 14,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "Reunión de diálogo requerida / Alerta comunitaria",
+        "Ultima_Visita": "2026-09-21",
+        "Observaciones_Bitacora": "Comunidad Kamushipa: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.565793,
+        "Longitud": -72.027555,
+        "coordenadas_texto": "11.565793°, -72.027555° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.027555,
+          11.565793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00012",
+      "properties": {
+        "name": "Flor de la Frontera",
+        "Name": "Flor de la Frontera",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 4.98,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 14,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-09",
+        "Observaciones_Bitacora": "Comunidad Flor de la Frontera: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.565019,
+        "Longitud": -72.016558,
+        "coordenadas_texto": "11.565019°, -72.016558° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.016558,
+          11.565019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00013",
+      "properties": {
+        "name": "Utkap",
+        "Name": "Utkap",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 1.66,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 16,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-24",
+        "Observaciones_Bitacora": "Comunidad Utkap: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.6017,
+        "Longitud": -72.006276,
+        "coordenadas_texto": "11.6017°, -72.006276° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.006276,
+          11.6017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00014",
+      "properties": {
+        "name": "Yotojoroin",
+        "Name": "Yotojoroin",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 2.07,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 16,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-06",
+        "Observaciones_Bitacora": "Comunidad Yotojoroin: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.592648,
+        "Longitud": -72.026134,
+        "coordenadas_texto": "11.592648°, -72.026134° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.026134,
+          11.592648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00015",
+      "properties": {
+        "name": "Pioreka",
+        "Name": "Pioreka",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 12.94,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-24",
+        "Observaciones_Bitacora": "Comunidad Pioreka: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.52655,
+        "Longitud": -72.102172,
+        "coordenadas_texto": "11.52655°, -72.102172° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.102172,
+          11.52655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00016",
+      "properties": {
+        "name": "Amalipa",
+        "Name": "Amalipa",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 10.71,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-03",
+        "Observaciones_Bitacora": "Comunidad Amalipa: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.530184,
+        "Longitud": -72.074603,
+        "coordenadas_texto": "11.530184°, -72.074603° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.074603,
+          11.530184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00017",
+      "properties": {
+        "name": "Pajakat",
+        "Name": "Pajakat",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 10.67,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-20",
+        "Observaciones_Bitacora": "Comunidad Pajakat: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.548471,
+        "Longitud": -72.094371,
+        "coordenadas_texto": "11.548471°, -72.094371° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.094371,
+          11.548471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00018",
+      "properties": {
+        "name": "Kijotchon",
+        "Name": "Kijotchon",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 9.51,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-05",
+        "Observaciones_Bitacora": "Comunidad Kijotchon: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.548304,
+        "Longitud": -72.079757,
+        "coordenadas_texto": "11.548304°, -72.079757° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.079757,
+          11.548304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00019",
+      "properties": {
+        "name": "Kamushipa",
+        "Name": "Kamushipa",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 5.27,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 12,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-22",
+        "Observaciones_Bitacora": "Comunidad Kamushipa: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.56294,
+        "Longitud": -72.011366,
+        "coordenadas_texto": "11.56294°, -72.011366° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.011366,
+          11.56294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00020",
+      "properties": {
+        "name": "Matnajuyaii",
+        "Name": "Matnajuyaii",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 4.23,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 12,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-02",
+        "Observaciones_Bitacora": "Comunidad Matnajuyaii: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.636773,
+        "Longitud": -71.991269,
+        "coordenadas_texto": "11.636773°, -71.991269° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.991269,
+          11.636773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00021",
+      "properties": {
+        "name": "Casa Autoridad Toloira",
+        "Name": "Casa Autoridad Toloira",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 20.06,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-24",
+        "Observaciones_Bitacora": "Comunidad Casa Autoridad Toloira: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.495069,
+        "Longitud": -72.161251,
+        "coordenadas_texto": "11.495069°, -72.161251° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.161251,
+          11.495069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00022",
+      "properties": {
+        "name": "Jununtao",
+        "Name": "Jununtao",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 18.22,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-09",
+        "Observaciones_Bitacora": "Comunidad Jununtao: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.48192,
+        "Longitud": -72.124098,
+        "coordenadas_texto": "11.48192°, -72.124098° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.124098,
+          11.48192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00023",
+      "properties": {
+        "name": "Sirruma",
+        "Name": "Sirruma",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 18.36,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-23",
+        "Observaciones_Bitacora": "Comunidad Sirruma: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.469905,
+        "Longitud": -72.109348,
+        "coordenadas_texto": "11.469905°, -72.109348° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.109348,
+          11.469905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00024",
+      "properties": {
+        "name": "Corralito",
+        "Name": "Corralito",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 21.49,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-06",
+        "Observaciones_Bitacora": "Comunidad Corralito: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.457007,
+        "Longitud": -72.140486,
+        "coordenadas_texto": "11.457007°, -72.140486° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.140486,
+          11.457007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00025",
+      "properties": {
+        "name": "Sabana Larga",
+        "Name": "Sabana Larga",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 23.27,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-28",
+        "Observaciones_Bitacora": "Comunidad Sabana Larga: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.426715,
+        "Longitud": -72.12374,
+        "coordenadas_texto": "11.426715°, -72.12374° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.12374,
+          11.426715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00026",
+      "properties": {
+        "name": "Siboru",
+        "Name": "Siboru",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 24.88,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-01",
+        "Observaciones_Bitacora": "Comunidad Siboru: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.414505,
+        "Longitud": -72.131932,
+        "coordenadas_texto": "11.414505°, -72.131932° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.131932,
+          11.414505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00027",
+      "properties": {
+        "name": "San Luis",
+        "Name": "San Luis",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 25.79,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-25",
+        "Observaciones_Bitacora": "Comunidad San Luis: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.401884,
+        "Longitud": -72.125714,
+        "coordenadas_texto": "11.401884°, -72.125714° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.125714,
+          11.401884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00028",
+      "properties": {
+        "name": "Chuluita",
+        "Name": "Chuluita",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 27.68,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-01",
+        "Observaciones_Bitacora": "Comunidad Chuluita: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.385147,
+        "Longitud": -72.130442,
+        "coordenadas_texto": "11.385147°, -72.130442° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.130442,
+          11.385147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00029",
+      "properties": {
+        "name": "Urraichipa",
+        "Name": "Urraichipa",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 29.8,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-25",
+        "Observaciones_Bitacora": "Comunidad Urraichipa: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.374011,
+        "Longitud": -72.150832,
+        "coordenadas_texto": "11.374011°, -72.150832° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.150832,
+          11.374011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00030",
+      "properties": {
+        "name": "Jaipaichon",
+        "Name": "Jaipaichon",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 29.92,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 2,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-04",
+        "Observaciones_Bitacora": "Comunidad Jaipaichon: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.372408,
+        "Longitud": -72.15028,
+        "coordenadas_texto": "11.372408°, -72.15028° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.15028,
+          11.372408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00031",
+      "properties": {
+        "name": "Santa Lucia",
+        "Name": "Santa Lucia",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 37.79,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-23",
+        "Observaciones_Bitacora": "Comunidad Santa Lucia: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.315581,
+        "Longitud": -72.194757,
+        "coordenadas_texto": "11.315581°, -72.194757° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.194757,
+          11.315581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00032",
+      "properties": {
+        "name": "Guadalajara",
+        "Name": "Guadalajara",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 39.15,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-02",
+        "Observaciones_Bitacora": "Comunidad Guadalajara: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.300725,
+        "Longitud": -72.19368,
+        "coordenadas_texto": "11.300725°, -72.19368° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.19368,
+          11.300725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00033",
+      "properties": {
+        "name": "Aritepchon",
+        "Name": "Aritepchon",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 9.08,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-27",
+        "Observaciones_Bitacora": "Comunidad Aritepchon: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.601617,
+        "Longitud": -72.101872,
+        "coordenadas_texto": "11.601617°, -72.101872° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.101872,
+          11.601617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00034",
+      "properties": {
+        "name": "Yatapchi",
+        "Name": "Yatapchi",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 10.5,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-09",
+        "Observaciones_Bitacora": "Comunidad Yatapchi: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.620947,
+        "Longitud": -72.114694,
+        "coordenadas_texto": "11.620947°, -72.114694° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.114694,
+          11.620947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00035",
+      "properties": {
+        "name": "Kurrura",
+        "Name": "Kurrura",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 11.81,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-22",
+        "Observaciones_Bitacora": "Comunidad Kurrura: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.643908,
+        "Longitud": -72.121719,
+        "coordenadas_texto": "11.643908°, -72.121719° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.121719,
+          11.643908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00036",
+      "properties": {
+        "name": "Mantapa",
+        "Name": "Mantapa",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 16.23,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-08",
+        "Observaciones_Bitacora": "Comunidad Mantapa: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.639468,
+        "Longitud": -72.164801,
+        "coordenadas_texto": "11.639468°, -72.164801° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.164801,
+          11.639468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00037",
+      "properties": {
+        "name": "Matnashon",
+        "Name": "Matnashon",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 25.15,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-22",
+        "Observaciones_Bitacora": "Comunidad Matnashon: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.680527,
+        "Longitud": -72.238301,
+        "coordenadas_texto": "11.680527°, -72.238301° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.238301,
+          11.680527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00038",
+      "properties": {
+        "name": "Kurrarirain",
+        "Name": "Kurrarirain",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 6.41,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 2,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-09",
+        "Observaciones_Bitacora": "Comunidad Kurrarirain: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.602322,
+        "Longitud": -72.077219,
+        "coordenadas_texto": "11.602322°, -72.077219° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.077219,
+          11.602322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00039",
+      "properties": {
+        "name": "Kaichirin",
+        "Name": "Kaichirin",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 8.7,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-26",
+        "Observaciones_Bitacora": "Comunidad Kaichirin: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.593877,
+        "Longitud": -72.097064,
+        "coordenadas_texto": "11.593877°, -72.097064° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.097064,
+          11.593877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00040",
+      "properties": {
+        "name": "Tewou",
+        "Name": "Tewou",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 13.64,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-09",
+        "Observaciones_Bitacora": "Comunidad Tewou: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.616075,
+        "Longitud": -72.143938,
+        "coordenadas_texto": "11.616075°, -72.143938° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.143938,
+          11.616075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00041",
+      "properties": {
+        "name": "Walawalao",
+        "Name": "Walawalao",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 18.87,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-23",
+        "Observaciones_Bitacora": "Comunidad Walawalao: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.663755,
+        "Longitud": -72.183299,
+        "coordenadas_texto": "11.663755°, -72.183299° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.183299,
+          11.663755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00042",
+      "properties": {
+        "name": "Media Luna",
+        "Name": "Media Luna",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 18.72,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-05",
+        "Observaciones_Bitacora": "Comunidad Media Luna: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.663556,
+        "Longitud": -72.181874,
+        "coordenadas_texto": "11.663556°, -72.181874° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.181874,
+          11.663556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00043",
+      "properties": {
+        "name": "Olopa",
+        "Name": "Olopa",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 23.29,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-25",
+        "Observaciones_Bitacora": "Comunidad Olopa: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.669172,
+        "Longitud": -72.22399,
+        "coordenadas_texto": "11.669172°, -72.22399° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.22399,
+          11.669172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00044",
+      "properties": {
+        "name": "Walakali II",
+        "Name": "Walakali II",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 23.4,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-09",
+        "Observaciones_Bitacora": "Comunidad Walakali II: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.682106,
+        "Longitud": -72.220812,
+        "coordenadas_texto": "11.682106°, -72.220812° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.220812,
+          11.682106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00045",
+      "properties": {
+        "name": "Walakaly I",
+        "Name": "Walakaly I",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 23.99,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-21",
+        "Observaciones_Bitacora": "Comunidad Walakaly I: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.685967,
+        "Longitud": -72.225148,
+        "coordenadas_texto": "11.685967°, -72.225148° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.225148,
+          11.685967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00046",
+      "properties": {
+        "name": "Jololo",
+        "Name": "Jololo",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 25.55,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-04",
+        "Observaciones_Bitacora": "Comunidad Jololo: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.699962,
+        "Longitud": -72.234851,
+        "coordenadas_texto": "11.699962°, -72.234851° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.234851,
+          11.699962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00047",
+      "properties": {
+        "name": "Chichankat",
+        "Name": "Chichankat",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 25.55,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-25",
+        "Observaciones_Bitacora": "Comunidad Chichankat: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.686361,
+        "Longitud": -72.240247,
+        "coordenadas_texto": "11.686361°, -72.240247° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.240247,
+          11.686361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00048",
+      "properties": {
+        "name": "Karraisirra",
+        "Name": "Karraisirra",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 26.99,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-09",
+        "Observaciones_Bitacora": "Comunidad Karraisirra: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.697206,
+        "Longitud": -72.250208,
+        "coordenadas_texto": "11.697206°, -72.250208° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.250208,
+          11.697206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00049",
+      "properties": {
+        "name": "Palishiteimana",
+        "Name": "Palishiteimana",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 28.12,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-23",
+        "Observaciones_Bitacora": "Comunidad Palishiteimana: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.693547,
+        "Longitud": -72.26268,
+        "coordenadas_texto": "11.693547°, -72.26268° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.26268,
+          11.693547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00050",
+      "properties": {
+        "name": "Pájaro-2 / Isashi",
+        "Name": "Pájaro-2 / Isashi",
+        "Semaforo": "Rojo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 7.7,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "Reunión de diálogo requerida / Alerta comunitaria",
+        "Ultima_Visita": "2026-10-02",
+        "Observaciones_Bitacora": "Comunidad Pájaro-2 / Isashi: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.609611,
+        "Longitud": -72.089583,
+        "coordenadas_texto": "11.609611°, -72.089583° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.089583,
+          11.609611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00051",
+      "properties": {
+        "name": "Suchiwaralu",
+        "Name": "Suchiwaralu",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 27.54,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-20",
+        "Observaciones_Bitacora": "Comunidad Suchiwaralu: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.6916,
+        "Longitud": -72.2577,
+        "coordenadas_texto": "11.6916°, -72.2577° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2577,
+          11.6916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00052",
+      "properties": {
+        "name": "Jasaichon",
+        "Name": "Jasaichon",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 29.46,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-02",
+        "Observaciones_Bitacora": "Comunidad Jasaichon: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.690139,
+        "Longitud": -72.276694,
+        "coordenadas_texto": "11.690139°, -72.276694° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.276694,
+          11.690139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00053",
+      "properties": {
+        "name": "Pololima",
+        "Name": "Pololima",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 9.67,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-25",
+        "Observaciones_Bitacora": "Comunidad Pololima: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.632073,
+        "Longitud": -72.104773,
+        "coordenadas_texto": "11.632073°, -72.104773° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.104773,
+          11.632073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00054",
+      "properties": {
+        "name": "Petsupa",
+        "Name": "Petsupa",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 28.88,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-09",
+        "Observaciones_Bitacora": "Comunidad Petsupa: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.703111,
+        "Longitud": -72.266556,
+        "coordenadas_texto": "11.703111°, -72.266556° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.266556,
+          11.703111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00055",
+      "properties": {
+        "name": "Walijio",
+        "Name": "Walijio",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 28.24,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-24",
+        "Observaciones_Bitacora": "Comunidad Walijio: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.703167,
+        "Longitud": -72.260194,
+        "coordenadas_texto": "11.703167°, -72.260194° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.260194,
+          11.703167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00056",
+      "properties": {
+        "name": "Aritepchon-Manzanita",
+        "Name": "Aritepchon-Manzanita",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 9.64,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-08",
+        "Observaciones_Bitacora": "Comunidad Aritepchon-Manzanita: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.605157,
+        "Longitud": -72.107227,
+        "coordenadas_texto": "11.605157°, -72.107227° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.107227,
+          11.605157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00057",
+      "properties": {
+        "name": "Mantara",
+        "Name": "Mantara",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 17.2,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-28",
+        "Observaciones_Bitacora": "Comunidad Mantara: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.645556,
+        "Longitud": -72.172583,
+        "coordenadas_texto": "11.645556°, -72.172583° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.172583,
+          11.645556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00058",
+      "properties": {
+        "name": "San Luis",
+        "Name": "San Luis",
+        "Semaforo": "Rojo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 10.62,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "Reunión de diálogo requerida / Alerta comunitaria",
+        "Ultima_Visita": "2026-10-08",
+        "Observaciones_Bitacora": "Comunidad San Luis: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.568083,
+        "Longitud": -72.106639,
+        "coordenadas_texto": "11.568083°, -72.106639° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.106639,
+          11.568083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00059",
+      "properties": {
+        "name": "Potcho /Potchi",
+        "Name": "Potcho /Potchi",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 18.47,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-27",
+        "Observaciones_Bitacora": "Comunidad Potcho /Potchi: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.656222,
+        "Longitud": -72.181806,
+        "coordenadas_texto": "11.656222°, -72.181806° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.181806,
+          11.656222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00060",
+      "properties": {
+        "name": "Jololo",
+        "Name": "Jololo",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 25.25,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-04",
+        "Observaciones_Bitacora": "Comunidad Jololo: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.697486,
+        "Longitud": -72.23297,
+        "coordenadas_texto": "11.697486°, -72.23297° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.23297,
+          11.697486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00061",
+      "properties": {
+        "name": "Tewou",
+        "Name": "Tewou",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 13.88,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-21",
+        "Observaciones_Bitacora": "Comunidad Tewou: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.615333,
+        "Longitud": -72.146167,
+        "coordenadas_texto": "11.615333°, -72.146167° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.146167,
+          11.615333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00062",
+      "properties": {
+        "name": "Mannachon",
+        "Name": "Mannachon",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 24.01,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-07",
+        "Observaciones_Bitacora": "Comunidad Mannachon: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.674361,
+        "Longitud": -72.229361,
+        "coordenadas_texto": "11.674361°, -72.229361° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.229361,
+          11.674361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00063",
+      "properties": {
+        "name": "Yatashi",
+        "Name": "Yatashi",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 9.51,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 2,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-26",
+        "Observaciones_Bitacora": "Comunidad Yatashi: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.614549,
+        "Longitud": -72.106058,
+        "coordenadas_texto": "11.614549°, -72.106058° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.106058,
+          11.614549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00064",
+      "properties": {
+        "name": "Jurula Paraiso",
+        "Name": "Jurula Paraiso",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 12.55,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-08",
+        "Observaciones_Bitacora": "Comunidad Jurula Paraiso: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.640843,
+        "Longitud": -72.129745,
+        "coordenadas_texto": "11.640843°, -72.129745° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.129745,
+          11.640843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00065",
+      "properties": {
+        "name": "Jemechi / Jemema",
+        "Name": "Jemechi / Jemema",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 18.0,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-20",
+        "Observaciones_Bitacora": "Comunidad Jemechi / Jemema: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.646368,
+        "Longitud": -72.179902,
+        "coordenadas_texto": "11.646368°, -72.179902° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.179902,
+          11.646368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00066",
+      "properties": {
+        "name": "Mannapaz",
+        "Name": "Mannapaz",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 8.26,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-02",
+        "Observaciones_Bitacora": "Comunidad Mannapaz: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.619286,
+        "Longitud": -72.094157,
+        "coordenadas_texto": "11.619286°, -72.094157° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.094157,
+          11.619286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00067",
+      "properties": {
+        "name": "Mantapa",
+        "Name": "Mantapa",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 15.86,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-26",
+        "Observaciones_Bitacora": "Comunidad Mantapa: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.643788,
+        "Longitud": -72.160365,
+        "coordenadas_texto": "11.643788°, -72.160365° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.160365,
+          11.643788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00068",
+      "properties": {
+        "name": "Petsuapa",
+        "Name": "Petsuapa",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 28.13,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-06",
+        "Observaciones_Bitacora": "Comunidad Petsuapa: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.701745,
+        "Longitud": -72.259667,
+        "coordenadas_texto": "11.701745°, -72.259667° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.259667,
+          11.701745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00069",
+      "properties": {
+        "name": "Petsuapa",
+        "Name": "Petsuapa",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 27.92,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-23",
+        "Observaciones_Bitacora": "Comunidad Petsuapa: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.70264,
+        "Longitud": -72.257288,
+        "coordenadas_texto": "11.70264°, -72.257288° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.257288,
+          11.70264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00070",
+      "properties": {
+        "name": "Petsuapa",
+        "Name": "Petsuapa",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 27.37,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-04",
+        "Observaciones_Bitacora": "Comunidad Petsuapa: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.700952,
+        "Longitud": -72.252566,
+        "coordenadas_texto": "11.700952°, -72.252566° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.252566,
+          11.700952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00071",
+      "properties": {
+        "name": "Petsuapa",
+        "Name": "Petsuapa",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 27.81,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-27",
+        "Observaciones_Bitacora": "Comunidad Petsuapa: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.699947,
+        "Longitud": -72.257285,
+        "coordenadas_texto": "11.699947°, -72.257285° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.257285,
+          11.699947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00072",
+      "properties": {
+        "name": "Jololo",
+        "Name": "Jololo",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 25.59,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-07",
+        "Observaciones_Bitacora": "Comunidad Jololo: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.700866,
+        "Longitud": -72.234923,
+        "coordenadas_texto": "11.700866°, -72.234923° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.234923,
+          11.700866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00073",
+      "properties": {
+        "name": "Jololo",
+        "Name": "Jololo",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 25.49,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-24",
+        "Observaciones_Bitacora": "Comunidad Jololo: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.700979,
+        "Longitud": -72.233885,
+        "coordenadas_texto": "11.700979°, -72.233885° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.233885,
+          11.700979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00074",
+      "properties": {
+        "name": "Joloushen",
+        "Name": "Joloushen",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 22.93,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-04",
+        "Observaciones_Bitacora": "Comunidad Joloushen: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.679519,
+        "Longitud": -72.217161,
+        "coordenadas_texto": "11.679519°, -72.217161° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.217161,
+          11.679519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00075",
+      "properties": {
+        "name": "Joloushen",
+        "Name": "Joloushen",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 22.81,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-27",
+        "Observaciones_Bitacora": "Comunidad Joloushen: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.675866,
+        "Longitud": -72.217243,
+        "coordenadas_texto": "11.675866°, -72.217243° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.217243,
+          11.675866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00076",
+      "properties": {
+        "name": "Manantial de Vida",
+        "Name": "Manantial de Vida",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 21.71,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-02",
+        "Observaciones_Bitacora": "Comunidad Manantial de Vida: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.674425,
+        "Longitud": -72.2071,
+        "coordenadas_texto": "11.674425°, -72.2071° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2071,
+          11.674425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00077",
+      "properties": {
+        "name": "Joloushen",
+        "Name": "Joloushen",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 22.48,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-28",
+        "Observaciones_Bitacora": "Comunidad Joloushen: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.670875,
+        "Longitud": -72.215784,
+        "coordenadas_texto": "11.670875°, -72.215784° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.215784,
+          11.670875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00078",
+      "properties": {
+        "name": "Manantial de Vida",
+        "Name": "Manantial de Vida",
+        "Semaforo": "Rojo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 20.93,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Reunión de diálogo requerida / Alerta comunitaria",
+        "Ultima_Visita": "2026-10-02",
+        "Observaciones_Bitacora": "Comunidad Manantial de Vida: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.666416,
+        "Longitud": -72.202253,
+        "coordenadas_texto": "11.666416°, -72.202253° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.202253,
+          11.666416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00079",
+      "properties": {
+        "name": "Potcho /Potchi",
+        "Name": "Potcho /Potchi",
+        "Semaforo": "Rojo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 18.13,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "Reunión de diálogo requerida / Alerta comunitaria",
+        "Ultima_Visita": "2026-09-22",
+        "Observaciones_Bitacora": "Comunidad Potcho /Potchi: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.651525,
+        "Longitud": -72.179899,
+        "coordenadas_texto": "11.651525°, -72.179899° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.179899,
+          11.651525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00080",
+      "properties": {
+        "name": "Mantapa",
+        "Name": "Mantapa",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 16.35,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-08",
+        "Observaciones_Bitacora": "Comunidad Mantapa: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.640012,
+        "Longitud": -72.165825,
+        "coordenadas_texto": "11.640012°, -72.165825° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.165825,
+          11.640012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00081",
+      "properties": {
+        "name": "Franelamana",
+        "Name": "Franelamana",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 14.56,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-23",
+        "Observaciones_Bitacora": "Comunidad Franelamana: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.640275,
+        "Longitud": -72.148924,
+        "coordenadas_texto": "11.640275°, -72.148924° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.148924,
+          11.640275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00082",
+      "properties": {
+        "name": "Jurula Paraiso",
+        "Name": "Jurula Paraiso",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 13.07,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-01",
+        "Observaciones_Bitacora": "Comunidad Jurula Paraiso: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.622754,
+        "Longitud": -72.138207,
+        "coordenadas_texto": "11.622754°, -72.138207° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.138207,
+          11.622754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00083",
+      "properties": {
+        "name": "Tewou",
+        "Name": "Tewou",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 13.56,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-26",
+        "Observaciones_Bitacora": "Comunidad Tewou: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.617615,
+        "Longitud": -72.143162,
+        "coordenadas_texto": "11.617615°, -72.143162° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.143162,
+          11.617615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00084",
+      "properties": {
+        "name": "Yatapchi",
+        "Name": "Yatapchi",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 10.8,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-07",
+        "Observaciones_Bitacora": "Comunidad Yatapchi: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.617921,
+        "Longitud": -72.117727,
+        "coordenadas_texto": "11.617921°, -72.117727° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.117727,
+          11.617921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00085",
+      "properties": {
+        "name": "Majayut",
+        "Name": "Majayut",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 11.5,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 2,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-27",
+        "Observaciones_Bitacora": "Comunidad Majayut: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.606417,
+        "Longitud": -72.124379,
+        "coordenadas_texto": "11.606417°, -72.124379° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.124379,
+          11.606417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00086",
+      "properties": {
+        "name": "Aritepchon-Manzanita",
+        "Name": "Aritepchon-Manzanita",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 9.28,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 2,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-07",
+        "Observaciones_Bitacora": "Comunidad Aritepchon-Manzanita: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.608995,
+        "Longitud": -72.104117,
+        "coordenadas_texto": "11.608995°, -72.104117° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.104117,
+          11.608995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00087",
+      "properties": {
+        "name": "Manzanita",
+        "Name": "Manzanita",
+        "Semaforo": "Rojo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 9.78,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "Reunión de diálogo requerida / Alerta comunitaria",
+        "Ultima_Visita": "2026-09-28",
+        "Observaciones_Bitacora": "Comunidad Manzanita: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.601812,
+        "Longitud": -72.108334,
+        "coordenadas_texto": "11.601812°, -72.108334° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.108334,
+          11.601812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00088",
+      "properties": {
+        "name": "Aritepchon",
+        "Name": "Aritepchon",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 8.89,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-08",
+        "Observaciones_Bitacora": "Comunidad Aritepchon: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.601337,
+        "Longitud": -72.100032,
+        "coordenadas_texto": "11.601337°, -72.100032° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.100032,
+          11.601337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00089",
+      "properties": {
+        "name": "Kijotchon",
+        "Name": "Kijotchon",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 7.04,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-23",
+        "Observaciones_Bitacora": "Comunidad Kijotchon: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.588647,
+        "Longitud": -72.07981,
+        "coordenadas_texto": "11.588647°, -72.07981° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.07981,
+          11.588647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00090",
+      "properties": {
+        "name": "Kurrarirain",
+        "Name": "Kurrarirain",
+        "Semaforo": "Rojo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 6.64,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 2,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Reunión de diálogo requerida / Alerta comunitaria",
+        "Ultima_Visita": "2026-10-04",
+        "Observaciones_Bitacora": "Comunidad Kurrarirain: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.591621,
+        "Longitud": -72.076968,
+        "coordenadas_texto": "11.591621°, -72.076968° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.076968,
+          11.591621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00091",
+      "properties": {
+        "name": "Kurrarirain",
+        "Name": "Kurrarirain",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 5.89,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-28",
+        "Observaciones_Bitacora": "Comunidad Kurrarirain: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.585736,
+        "Longitud": -72.067111,
+        "coordenadas_texto": "11.585736°, -72.067111° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.067111,
+          11.585736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00092",
+      "properties": {
+        "name": "Kijotchon",
+        "Name": "Kijotchon",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 6.18,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-06",
+        "Observaciones_Bitacora": "Comunidad Kijotchon: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.58156,
+        "Longitud": -72.067835,
+        "coordenadas_texto": "11.58156°, -72.067835° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.067835,
+          11.58156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00093",
+      "properties": {
+        "name": "Romana",
+        "Name": "Romana",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 5.08,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-20",
+        "Observaciones_Bitacora": "Comunidad Romana: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.576877,
+        "Longitud": -72.051237,
+        "coordenadas_texto": "11.576877°, -72.051237° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.051237,
+          11.576877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00094",
+      "properties": {
+        "name": "Romana",
+        "Name": "Romana",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 5.82,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 13,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-08",
+        "Observaciones_Bitacora": "Comunidad Romana: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.577452,
+        "Longitud": -72.06095,
+        "coordenadas_texto": "11.577452°, -72.06095° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.06095,
+          11.577452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00095",
+      "properties": {
+        "name": "Romana",
+        "Name": "Romana",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 5.54,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 12,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-28",
+        "Observaciones_Bitacora": "Comunidad Romana: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.573691,
+        "Longitud": -72.054055,
+        "coordenadas_texto": "11.573691°, -72.054055° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.054055,
+          11.573691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00096",
+      "properties": {
+        "name": "Julapa - Romana",
+        "Name": "Julapa - Romana",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 5.46,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 6,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-01",
+        "Observaciones_Bitacora": "Comunidad Julapa - Romana: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.58302,
+        "Longitud": -72.060964,
+        "coordenadas_texto": "11.58302°, -72.060964° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.060964,
+          11.58302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00097",
+      "properties": {
+        "name": "Ousinalu",
+        "Name": "Ousinalu",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 17.79,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-21",
+        "Observaciones_Bitacora": "Comunidad Ousinalu: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.693136,
+        "Longitud": -72.158743,
+        "coordenadas_texto": "11.693136°, -72.158743° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.158743,
+          11.693136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00098",
+      "properties": {
+        "name": "Mapuain",
+        "Name": "Mapuain",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 19.3,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-02",
+        "Observaciones_Bitacora": "Comunidad Mapuain: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.516194,
+        "Longitud": -72.168167,
+        "coordenadas_texto": "11.516194°, -72.168167° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.168167,
+          11.516194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00099",
+      "properties": {
+        "name": "Yolujapien",
+        "Name": "Yolujapien",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 22.98,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-21",
+        "Observaciones_Bitacora": "Comunidad Yolujapien: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.672415,
+        "Longitud": -72.220034,
+        "coordenadas_texto": "11.672415°, -72.220034° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.220034,
+          11.672415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00100",
+      "properties": {
+        "name": "Montermon",
+        "Name": "Montermon",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 18.29,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-04",
+        "Observaciones_Bitacora": "Comunidad Montermon: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.668028,
+        "Longitud": -72.176111,
+        "coordenadas_texto": "11.668028°, -72.176111° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.176111,
+          11.668028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00101",
+      "properties": {
+        "name": "Potcho /Potchi",
+        "Name": "Potcho /Potchi",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 18.04,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-21",
+        "Observaciones_Bitacora": "Comunidad Potcho /Potchi: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.65525,
+        "Longitud": -72.177972,
+        "coordenadas_texto": "11.65525°, -72.177972° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.177972,
+          11.65525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00102",
+      "properties": {
+        "name": "Masamana",
+        "Name": "Masamana",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 17.47,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-04",
+        "Observaciones_Bitacora": "Comunidad Masamana: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.660528,
+        "Longitud": -72.170833,
+        "coordenadas_texto": "11.660528°, -72.170833° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.170833,
+          11.660528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00103",
+      "properties": {
+        "name": "Pájaro",
+        "Name": "Pájaro",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 7.56,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-20",
+        "Observaciones_Bitacora": "Comunidad Pájaro: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.608528,
+        "Longitud": -72.088306,
+        "coordenadas_texto": "11.608528°, -72.088306° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.088306,
+          11.608528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00104",
+      "properties": {
+        "name": "Manzanita",
+        "Name": "Manzanita",
+        "Semaforo": "Rojo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 9.83,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 4,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "Reunión de diálogo requerida / Alerta comunitaria",
+        "Ultima_Visita": "2026-10-02",
+        "Observaciones_Bitacora": "Comunidad Manzanita: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.604111,
+        "Longitud": -72.108972,
+        "coordenadas_texto": "11.604111°, -72.108972° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.108972,
+          11.604111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00105",
+      "properties": {
+        "name": "Majayut",
+        "Name": "Majayut",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 12.48,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-28",
+        "Observaciones_Bitacora": "Comunidad Majayut: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.614861,
+        "Longitud": -72.133306,
+        "coordenadas_texto": "11.614861°, -72.133306° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.133306,
+          11.614861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00106",
+      "properties": {
+        "name": "Poulaput",
+        "Name": "Poulaput",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 26.05,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 2,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-05",
+        "Observaciones_Bitacora": "Comunidad Poulaput: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.682056,
+        "Longitud": -72.2465,
+        "coordenadas_texto": "11.682056°, -72.2465° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2465,
+          11.682056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00107",
+      "properties": {
+        "name": "Petsuapa",
+        "Name": "Petsuapa",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 28.75,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-25",
+        "Observaciones_Bitacora": "Comunidad Petsuapa: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.701361,
+        "Longitud": -72.265972,
+        "coordenadas_texto": "11.701361°, -72.265972° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.265972,
+          11.701361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00108",
+      "properties": {
+        "name": "Cadenachon",
+        "Name": "Cadenachon",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 30.45,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-05",
+        "Observaciones_Bitacora": "Comunidad Cadenachon: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.693056,
+        "Longitud": -72.285319,
+        "coordenadas_texto": "11.693056°, -72.285319° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.285319,
+          11.693056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00109",
+      "properties": {
+        "name": "Petsuapa",
+        "Name": "Petsuapa",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 28.63,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-22",
+        "Observaciones_Bitacora": "Comunidad Petsuapa: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.697723,
+        "Longitud": -72.266062,
+        "coordenadas_texto": "11.697723°, -72.266062° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.266062,
+          11.697723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00110",
+      "properties": {
+        "name": "Siboru x 3",
+        "Name": "Siboru x 3",
+        "Semaforo": "Rojo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 28.12,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "Reunión de diálogo requerida / Alerta comunitaria",
+        "Ultima_Visita": "2026-10-05",
+        "Observaciones_Bitacora": "Comunidad Siboru x 3: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.688627,
+        "Longitud": -72.264278,
+        "coordenadas_texto": "11.688627°, -72.264278° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.264278,
+          11.688627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00111",
+      "properties": {
+        "name": "Ipashirain",
+        "Name": "Ipashirain",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 28.45,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-25",
+        "Observaciones_Bitacora": "Comunidad Ipashirain: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.705686,
+        "Longitud": -72.261261,
+        "coordenadas_texto": "11.705686°, -72.261261° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.261261,
+          11.705686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00112",
+      "properties": {
+        "name": "Itrashi",
+        "Name": "Itrashi",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 28.21,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-01",
+        "Observaciones_Bitacora": "Comunidad Itrashi: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.706774,
+        "Longitud": -72.258481,
+        "coordenadas_texto": "11.706774°, -72.258481° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.258481,
+          11.706774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00113",
+      "properties": {
+        "name": "Irruishirra",
+        "Name": "Irruishirra",
+        "Semaforo": "Rojo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 27.95,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "Reunión de diálogo requerida / Alerta comunitaria",
+        "Ultima_Visita": "2026-09-21",
+        "Observaciones_Bitacora": "Comunidad Irruishirra: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.707115,
+        "Longitud": -72.25572,
+        "coordenadas_texto": "11.707115°, -72.25572° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.25572,
+          11.707115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00114",
+      "properties": {
+        "name": "Franelamana",
+        "Name": "Franelamana",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 15.07,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 0,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-09",
+        "Observaciones_Bitacora": "Comunidad Franelamana: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.642495,
+        "Longitud": -72.153222,
+        "coordenadas_texto": "11.642495°, -72.153222° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.153222,
+          11.642495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00115",
+      "properties": {
+        "name": "Jasaimana",
+        "Name": "Jasaimana",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 16.46,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-28",
+        "Observaciones_Bitacora": "Comunidad Jasaimana: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.646274,
+        "Longitud": -72.165375,
+        "coordenadas_texto": "11.646274°, -72.165375° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.165375,
+          11.646274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00116",
+      "properties": {
+        "name": "Kaatsuo",
+        "Name": "Kaatsuo",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Directa (AID)",
+        "Distancia_Parque_km": 4.44,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 8,
+        "Convenio_Social": "Capacitación técnica certificada (SENA) a 25 jóvenes de la comunidad en montaje mecánico fotovoltaico",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-03",
+        "Observaciones_Bitacora": "Comunidad Kaatsuo: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.611916,
+        "Longitud": -72.059697,
+        "coordenadas_texto": "11.611916°, -72.059697° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.059697,
+          11.611916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00117",
+      "properties": {
+        "name": "Aritepchon",
+        "Name": "Aritepchon",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 9.05,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 2,
+        "Convenio_Social": "Proyecto productivo de apicultura y huertas solares comunitarias para mujeres tejedoras Wayuu",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-21",
+        "Observaciones_Bitacora": "Comunidad Aritepchon: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.59757,
+        "Longitud": -72.101034,
+        "coordenadas_texto": "11.59757°, -72.101034° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.101034,
+          11.59757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00118",
+      "properties": {
+        "name": "URAICHIRAP",
+        "Name": "URAICHIRAP",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 19.15,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 1,
+        "Convenio_Social": "Convenio de suministro de kits solares domiciliarios y mantenimiento preventivo",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-10-06",
+        "Observaciones_Bitacora": "Comunidad URAICHIRAP: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.688883,
+        "Longitud": -72.175369,
+        "coordenadas_texto": "11.688883°, -72.175369° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.175369,
+          11.688883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00119",
+      "properties": {
+        "name": "URAICHIRAP - Prin",
+        "Name": "URAICHIRAP - Prin",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 20.27,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 2,
+        "Convenio_Social": "Mejoramiento de vía de acceso comunitaria y obras de drenaje pluvial concertadas",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-09-22",
+        "Observaciones_Bitacora": "Comunidad URAICHIRAP - Prin: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.695717,
+        "Longitud": -72.183418,
+        "coordenadas_texto": "11.695717°, -72.183418° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.183418,
+          11.695717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00120",
+      "properties": {
+        "name": "Area por definir",
+        "Name": "Area por definir",
+        "Semaforo": "Verde",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 14.86,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 3,
+        "Convenio_Social": "Instalación de sistema solar fotovoltaico para bombeo de agua en jagüey comunitario (Solución hídrica)",
+        "Estado_Consulta": "Protocolizada y con acuerdos en ejecución",
+        "Ultima_Visita": "2026-10-09",
+        "Observaciones_Bitacora": "Comunidad Area por definir: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.625632,
+        "Longitud": -72.154387,
+        "coordenadas_texto": "11.625632°, -72.154387° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.154387,
+          11.625632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ID_00121",
+      "properties": {
+        "name": "Area por definir",
+        "Name": "Area por definir",
+        "Semaforo": "Amarillo",
+        "Tipo_Influencia": "Área de Influencia Indirecta (AII)",
+        "Distancia_Parque_km": 22.78,
+        "Zona": "Guajira Central - Corredor Solar",
+        "Empleo_Local_Activo": 5,
+        "Convenio_Social": "Microred solar aislada con almacenamiento en baterías para escuela rural comunitaria",
+        "Estado_Consulta": "En mesas de concertación y seguimiento",
+        "Ultima_Visita": "2026-09-24",
+        "Observaciones_Bitacora": "Comunidad Area por definir: Se mantiene diálogo permanente con la autoridad tradicional. Monitoreo a los compromisos de empleo local y avance del proyecto solar social.",
+        "Lat": 11.680976,
+        "Longitud": -72.215146,
+        "coordenadas_texto": "11.680976°, -72.215146° WGS 84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.215146,
+          11.680976
+        ]
+      }
+    }
+  ]
+}
