@@ -77,12 +77,16 @@ function copyStaticAssetsPlugin() {
           fs.copyFileSync(src, path.join(outDir, file));
         }
       }
+      // GitHub Pages: skip Jekyll so vendor/_… and dotted paths are served.
+      fs.writeFileSync(path.join(outDir, '.nojekyll'), '');
     }
   };
 }
 
 export default defineConfig({
   root: ROOT,
+  // Project GitHub Pages: https://edwinjojojo.github.io/Dashboard-Proyecto-Fotovoltaico/
+  base: '/Dashboard-Proyecto-Fotovoltaico/',
   publicDir: false,
   build: {
     outDir: 'dist',
